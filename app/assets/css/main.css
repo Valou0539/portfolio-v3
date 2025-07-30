@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Jost", system-ui, sans-serif;
+  --font-heading: "Righteous", system-ui, sans-serif;
+
+  --color-bg-light: #fff6e6;
+  --color-bg-dark: #180424;
+  --color-bg: var(--color-bg-light);
+
+  --color-primary-light: #4d0099;
+  --color-primary-dark: #bf80ff;
+  --color-primary: var(--color-primary-light);
+
+  --color-secondary-light: #1a0033;
+  --color-secondary-dark: #ebd6ff;
+  --color-secondary: var(--color-secondary-light);
+
+  --color-primary-contrast-light: var(--color-secondary-dark);
+  --color-primary-contrast-dark: var(--color-secondary-light);
+  --color-primary-contrast: var(--color-primary-contrast-light);
+
+  --color-glass-light: rgba(255, 255, 255, .3);
+  --color-glass-dark: rgba(255, 255, 255, .05);
+  --color-glass: var(--color-glass-light);
+
+  --color-glass-opaque-light: rgba(255, 255, 255, .5);
+  --color-glass-opaque-dark: rgba(255, 255, 255, .1);
+  --color-glass-opaque: var(--color-glass-opaque-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-bg-dark);
+    --color-primary: var(--color-primary-dark);
+    --color-secondary: var(--color-secondary-dark);
+    --color-primary-contrast: var(--color-primary-contrast-dark);
+    --color-glass: var(--color-glass-dark);
+    --color-glass-opaque: var(--color-glass-opaque-dark);
+  }
+}
+
+.light {
+  --color-bg: var(--color-bg-light);
+  --color-primary: var(--color-primary-light);
+  --color-secondary: var(--color-secondary-light);
+  --color-primary-contrast: var(--color-primary-contrast-light);
+  --color-glass: var(--color-glass-light);
+  --color-glass-opaque: var(--color-glass-opaque-light);
+}
+
+.dark {
+  --color-bg: var(--color-bg-dark);
+  --color-primary: var(--color-primary-dark);
+  --color-secondary: var(--color-secondary-dark);
+  --color-primary-contrast: var(--color-primary-contrast-dark);
+  --color-glass: var(--color-glass-dark);
+  --color-glass-opaque: var(--color-glass-opaque-dark);
+}
+
+html {
+  @apply overflow-x-hidden bg-bg text-secondary transition-colors duration-200 font-body;
+  scrollbar-width: thin;
+}
