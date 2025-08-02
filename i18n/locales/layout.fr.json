@@ -1,6 +1,14 @@
 
 {
   "layout": {
-    
-  } 
+    "topbar": {
+      "home": "Accueil",
+      "home-nav": "Bienvenue",
+      "about": "A propos",
+      "projects": "Projets",
+      "contact": "Contact",
+      "selected-language": "Langue sélectionnée : {selectedLanguage}. Cliquer pour changer.",
+      "cancel": "Annuler"
+    }
+  }
 }

@@ -7,7 +7,6 @@
   </Html>
 </template>
 <script lang="ts" setup>
-const config = useRuntimeConfig();
 useHead({
   titleTemplate: `%s - Valentin Gindre`,
 });

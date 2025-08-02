@@ -1,5 +1,5 @@
 <template>
-  <Topbar />
+  <LayoutTopbar />
   <slot />
-  <Footer />
+  <LayoutFooter />
 </template>

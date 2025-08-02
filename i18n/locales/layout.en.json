@@ -1,6 +1,14 @@
 
 {
   "layout": {
-      
+    "topbar": {
+      "home": "Home",
+      "home-nav": "Welcome",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact",
+      "selected-language": "Selected language: {selectedLanguage}. Click to change.",
+      "cancel": "Cancel"
+    }
   }
 }

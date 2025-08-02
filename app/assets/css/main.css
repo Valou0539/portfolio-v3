@@ -58,7 +58,7 @@
   --color-glass-opaque: var(--color-glass-opaque-dark);
 }
 
-html {
+body {
   @apply overflow-x-hidden bg-bg text-secondary transition-colors duration-200 font-body;
   scrollbar-width: thin;
 }

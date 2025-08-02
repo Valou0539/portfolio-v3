@@ -12,6 +12,10 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
   ],
 
+  colorMode: {
+    classSuffix: "",
+  },
+
   fonts: {
     families: [
       {
@@ -32,12 +36,24 @@ export default defineNuxtConfig({
     locales: [
       {
         code: "en",
-        files: ["layout.en.json", "home.en.json"],
+        files: [
+          "layout.en.json",
+          "home.en.json",
+          "contact.en.json",
+          "about.en.json",
+          "projects.en.json",
+        ],
         name: "English",
       },
       {
         code: "fr",
-        files: ["layout.fr.json", "home.fr.json"],
+        files: [
+          "layout.fr.json",
+          "home.fr.json",
+          "contact.fr.json",
+          "about.fr.json",
+          "projects.fr.json",
+        ],
         name: "Français",
       },
     ],

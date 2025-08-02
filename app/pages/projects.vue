@@ -5,6 +5,6 @@
 const { t } = useI18n();
 
 useSeoMeta({
-  title: t("home.seo.title"),
+  title: t("projects.seo.title"),
 });
 </script>

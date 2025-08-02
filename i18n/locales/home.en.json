@@ -1,5 +1,7 @@
 {
   "home": {
-    "title": "Welcome to my portfolio"
+    "seo": {
+      "title": "Welcome to my portfolio"
+    }
   }
 }
