@@ -1,7 +1,8 @@
 {
   "projects": {
     "seo": {
-      "title": "My projects"
+      "title": "My projects",
+      "description": "Discover my projects. From the one done during my studies to the one I'm working on now."
     }
   }
 }

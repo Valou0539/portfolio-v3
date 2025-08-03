@@ -35,6 +35,7 @@
             @click="openMenu('mobile')"
             class="block cursor-pointer p-1 md:hidden"
           >
+            <span class="sr-only">{{ $t("layout.topbar.open-menu") }}</span>
             <Bars2Icon class="size-7" />
           </button>
         </div>

@@ -10,7 +10,13 @@
     "topbar": {
       "home": "Home",
       "selected-language": "Selected language: {selectedLanguage}. Click to change.",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "open-menu": "Open menu",
+      "close-menu": "Close menu"
+    },
+    "theme": {
+      "switch-from-light": "Switch to dark mode",
+      "switch-from-dark": "Switch to light mode"
     },
     "footer": {
       "tech_stack": "Design created in {figma} then coded on {windsurf} with passion. Built with {nuxt} and {tailwind}, then deployed on {vercel}. The {righteous} font was used for titles and {jost} for body. All icons come from {heroicons}.",

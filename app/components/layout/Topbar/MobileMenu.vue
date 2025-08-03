@@ -6,7 +6,7 @@
         @click="$emit('close')"
         class="cursor-pointer rounded-sm p-2 hover:bg-white/10"
       >
-        <span class="sr-only">{{ $t("layout.topbar.cancel") }}</span>
+        <span class="sr-only">{{ $t("layout.topbar.close-menu") }}</span>
         <XMarkIcon class="size-5" />
       </button>
     </div>

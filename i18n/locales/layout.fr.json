@@ -10,7 +10,13 @@
     "topbar": {
       "home": "Accueil",
       "selected-language": "Langue sélectionnée : {selectedLanguage}. Cliquer pour changer.",
-      "cancel": "Annuler"
+      "cancel": "Annuler",
+      "open-menu": "Ouvrir le menu",
+      "close-menu": "Fermer le menu"
+    },
+    "theme": {
+      "switch-from-light": "Passer en mode sombre",
+      "switch-from-dark": "Passer en mode clair"
     },
     "footer": {
       "tech_stack": "Design réalisé dans {figma}, puis codé sur {windsurf} avec passion. Créé avec {nuxt} et {tailwind}, puis déployé sur {vercel}. La police {righteous} a été utilisée pour les titres et {jost} pour le corps. Toutes les icônes proviennent de {heroicons}.",

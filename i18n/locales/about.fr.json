@@ -1,7 +1,8 @@
 {
   "about": {
     "seo": {
-      "title": "À propos"
+      "title": "À propos",
+      "description": "Apprenez plus sur moi, mes compétences et mon expérience"
     }
   }
 }

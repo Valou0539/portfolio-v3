@@ -1,7 +1,8 @@
 {
   "about": {
     "seo": {
-      "title": "About me"
+      "title": "About me",
+      "description": "Learn more about me, my skills and my experiences"
     }
   }
 }

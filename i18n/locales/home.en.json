@@ -1,7 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "Welcome to my portfolio"
+      "title": "Welcome to my portfolio",
+      "description": "Welcome to my portfolio. I'm Valentin Gindre, a web developer who likes to make accessible websites and even design them in his free time. And I love it!"
     }
   }
 }

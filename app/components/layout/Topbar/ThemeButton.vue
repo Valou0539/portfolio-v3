@@ -5,8 +5,10 @@
       selectedTheme = selectedTheme === 'light' ? 'dark' : 'light';
     "
     class="relative cursor-pointer p-2"
-    aria-hidden="true"
   >
+    <span class="sr-only">{{
+      $t("layout.theme.switch-from-" + selectedTheme)
+    }}</span>
     <MoonIcon
       :class="[
         selectedTheme === 'light'
