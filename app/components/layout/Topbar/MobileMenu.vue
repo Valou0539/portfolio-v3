@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-start gap-2 px-5 py-2">
     <div class="flex w-full items-center justify-between gap-2">
-      <LayoutThemeButton />
+      <LayoutTopbarThemeButton />
       <button
         @click="$emit('close')"
         class="cursor-pointer rounded-sm p-2 hover:bg-white/10"
@@ -25,14 +25,7 @@
 
 <script lang="ts" setup>
 import { XMarkIcon } from "@heroicons/vue/24/outline";
-
-const props = defineProps<{
-  navigation: {
-    i18nKey: string;
-    path: string;
-    icon: Component;
-  }[];
-}>();
+import { navigation } from "@/consts/navigation";
 
 defineEmits<{
   (e: "close"): void;

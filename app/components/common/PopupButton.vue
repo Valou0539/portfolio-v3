@@ -8,6 +8,7 @@
       :blurAmount="animationPhase === 'expand' ? blurAmount + 10 : blurAmount"
       :opaque="opaque"
       :update-text-color="updateTextColor"
+      @click.stop
     >
       <div :class="defaultContentClasses" ref="defaultContent">
         <slot name="default" />
@@ -39,6 +40,10 @@ const props = withDefaults(defineProps<Props>(), {
   updateTextColor: false,
 });
 
+const emit = defineEmits<{
+  (e: "close"): void;
+}>();
+
 const defaultContent = useTemplateRef<HTMLElement>("defaultContent");
 const popupContent = useTemplateRef<HTMLElement>("popupContent");
 
@@ -55,6 +60,7 @@ const {
   openAlignment: () => props.openAlignment,
   defaultContent,
   popupContent,
+  emitClose: () => emit("close"),
 });
 
 setupPopupButton();

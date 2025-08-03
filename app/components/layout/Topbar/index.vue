@@ -7,7 +7,7 @@
         <span class="sr-only">{{ $t("layout.topbar.home") }}</span>
         <HomeIcon class="size-6" />
       </NuxtLinkLocale>
-      <LayoutDesktopNav class="hidden md:flex" :navigation="navigation" />
+      <LayoutTopbarDesktopNav class="hidden md:flex" />
     </CommonGlassDiv>
 
     <CommonPopupButton
@@ -16,6 +16,7 @@
       :blur-amount="3"
       :open-alignment="openAlignment"
       update-text-color
+      @close="showPopup = false"
     >
       <template #default>
         <div class="flex items-center gap-6 px-5 py-2">
@@ -29,7 +30,7 @@
             }}</span>
             <AssetsFlag :lang="$i18n.locale" class="size-5 opacity-90" />
           </button>
-          <LayoutThemeButton class="hidden md:block" />
+          <LayoutTopbarThemeButton class="hidden md:block" />
           <button
             @click="openMenu('mobile')"
             class="block cursor-pointer p-1 md:hidden"
@@ -39,11 +40,10 @@
         </div>
       </template>
       <template #popup>
-        <LayoutLangMenu v-if="menuOpen === 'lang'" @close="closeMenu" />
-        <LayoutMobileMenu
+        <LayoutTopbarLangMenu v-if="menuOpen === 'lang'" @close="closeMenu" />
+        <LayoutTopbarMobileMenu
           v-else-if="menuOpen === 'mobile'"
           @close="closeMenu"
-          :navigation="navigation"
         />
       </template>
     </CommonPopupButton>
@@ -51,36 +51,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-  Bars2Icon,
-  BriefcaseIcon,
-  EnvelopeIcon,
-  HomeIcon,
-  UserIcon,
-} from "@heroicons/vue/24/outline";
-
-const navigation = [
-  {
-    i18nKey: "layout.topbar.home-nav",
-    path: "/",
-    icon: HomeIcon,
-  },
-  {
-    i18nKey: "layout.topbar.about",
-    path: "/about",
-    icon: UserIcon,
-  },
-  {
-    i18nKey: "layout.topbar.projects",
-    path: "/projects",
-    icon: BriefcaseIcon,
-  },
-  {
-    i18nKey: "layout.topbar.contact",
-    path: "/contact",
-    icon: EnvelopeIcon,
-  },
-];
+import { Bars2Icon, HomeIcon } from "@heroicons/vue/24/outline";
 
 const showPopup = ref(false);
 const menuOpen = ref<"lang" | "mobile" | null>(null);
@@ -93,8 +64,10 @@ function openMenu(type: "lang" | "mobile") {
 }
 
 function closeMenu() {
-  menuOpen.value = null;
   showPopup.value = false;
+  window.setTimeout(() => {
+    menuOpen.value = null;
+  }, 200);
 }
 
 function setAlignment() {

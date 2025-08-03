@@ -20,12 +20,7 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  navigation: {
-    i18nKey: string;
-    path: string;
-  }[];
-}>();
+import { navigation } from "@/consts/navigation";
 
 const links = useTemplateRef("links");
 const glass = useTemplateRef("glass");

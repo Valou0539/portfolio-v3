@@ -3,10 +3,11 @@ export interface PopupButtonOptions {
   openAlignment: () => "center" | "left" | "right";
   defaultContent: Ref<HTMLElement | null>;
   popupContent: Ref<HTMLElement | null>;
+  emitClose: () => void;
 }
 
 export function usePopupButton(options: PopupButtonOptions) {
-  const { defaultContent, popupContent } = options;
+  const { defaultContent, popupContent, emitClose } = options;
 
   const animationPhase = ref<"default" | "shrink" | "expand">("default");
   const isMounted = ref(false);
@@ -115,9 +116,13 @@ export function usePopupButton(options: PopupButtonOptions) {
       handlePopupToggle(newValue);
     });
 
-    // Marquer comme monté
     onMounted(() => {
       isMounted.value = true;
+      window.addEventListener("click", emitClose);
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener("click", emitClose);
     });
 
     return {
