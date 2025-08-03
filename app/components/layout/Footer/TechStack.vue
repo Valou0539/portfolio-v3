@@ -3,7 +3,7 @@
     keypath="layout.footer.tech_stack"
     tag="p"
     scope="global"
-    class="tech-stack hidden max-w-96 sm:block"
+    class="tech-stack text-secondary/75 hidden max-w-96 sm:block"
   >
     <template #figma>
       <a href="https://www.figma.com" target="_blank" rel="noopener">Figma</a>
