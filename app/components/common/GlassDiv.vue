@@ -1,7 +1,7 @@
 <template>
   <div
     ref="content"
-    class="glass overflow-hidden transition-all duration-200"
+    class="glass shadow-2xs overflow-hidden transition-all duration-200"
     :style="{
       borderRadius: `${rounded}px`,
       position: position,
