@@ -11,6 +11,13 @@
       "home": "Accueil",
       "selected-language": "Langue sélectionnée : {selectedLanguage}. Cliquer pour changer.",
       "cancel": "Annuler"
+    },
+    "footer": {
+      "tech_stack": "Design réalisé dans {figma}, puis codé sur {windsurf} avec passion. Créé avec {nuxt} et {tailwind}, puis déployé sur {vercel}. La police {righteous} a été utilisée pour les titres et {jost} pour le corps. Toutes les icônes proviennent de {heroicons}.",
+      "my-links": "Mes liens",
+      "navigation": "Navigation",
+      "cv": "CV",
+      "copyright": "{year} © Valentin Gindre. Tous droits réservés."
     }
   }
 }

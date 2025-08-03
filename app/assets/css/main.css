@@ -62,3 +62,7 @@ body {
   @apply overflow-x-hidden bg-bg text-secondary transition-colors duration-200 font-body;
   scrollbar-width: thin;
 }
+
+.tech-stack a {
+  @apply text-secondary font-medium hover:text-primary transition-colors duration-200;
+}
