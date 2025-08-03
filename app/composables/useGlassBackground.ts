@@ -11,6 +11,7 @@ export function useGlassBackground() {
       const sourceCanvas = await html2canvas(document.body, {
         ignoreElements: (el) => el.classList.contains("glass"),
         backgroundColor: "transparent",
+        logging: false,
       });
 
       // Créer un nouveau canvas avec willReadFrequently
