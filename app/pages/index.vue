@@ -1,6 +1,7 @@
 <template>
   <main>
     <PagesHomeHeading />
+    <PagesHomeWhatIDo />
   </main>
 </template>
 <script lang="ts" setup>

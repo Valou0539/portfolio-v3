@@ -7,6 +7,25 @@
     "heading": {
       "title": "Hey! Valentin, \ndéveloppeur web",
       "subtitle": "Je développe des sites web accessible à tous. Les design à mes heures perdues. Et j'aime ça !"
+    },
+    "what-i-do": {
+      "title": "Ce que je fais",
+      "1": {
+        "title": "Je développe",
+        "description": "Spécialisé en Nuxt (Vue 3) avec TypeScript, j'ai aussi travaillé sur des projets en Angular et React. Je conçois des interfaces modernes, maintenables et performantes, adaptées aux besoins du projet."
+      },
+      "2": {
+        "title": "Je conçois",
+        "description": "J'imagine des expériences utilisateurs fluides et accessibles, en m'appuyant sur des design systems comme Tailwind CSS ou Angular Material. Chaque interface est pensée mobile-first et accessible à tous."
+      },
+      "3": {
+        "title": "J'optimise",
+        "description": "Je veille à l'accessibilité, à la performance et au SEO. Chargement rapide, structure HTML, bonnes pratiques et rendu SSR : tout est pensé pour une expérience fluide et visible."
+      },
+      "4": {
+        "title": "Je collabore",
+        "description": "Je m’intègre facilement en équipe et je communique efficacement avec les designers, développeurs et clients, quel que soit le contexte du projet."
+      }
     }
   }
 }

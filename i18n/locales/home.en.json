@@ -7,6 +7,25 @@
     "heading": {
       "title": "Hi! I'm Valentin, web developer",
       "subtitle": "I make accessible websites and even design them in my free time. And I love it!"
+    },
+    "what-i-do": {
+      "title": "What I do",
+      "1": {
+        "title": "I develop",
+        "description": "Specialized in Nuxt (Vue 3) with TypeScript, I have also worked on projects in Angular and React. I design modern interfaces, maintainable and performant, adapted to the needs of the project."
+      },
+      "2": {
+        "title": "I design",
+        "description": "I imagine fluid and accessible user experiences, relying on design systems like Tailwind CSS or Angular Material. Each interface is designed mobile-first and accessible to all."
+      },
+      "3": {
+        "title": "I optimize",
+        "description": "I ensure accessibility, performance and SEO. Fast loading, HTML structure, good practices and SSR rendering: everything is designed for a smooth and visible experience."
+      },
+      "4": {
+        "title": "I collaborate",
+        "description": "I integrate easily into a team and communicate efficiently with designers, developers and clients, whatever the project context."
+      }
     }
   }
 }
