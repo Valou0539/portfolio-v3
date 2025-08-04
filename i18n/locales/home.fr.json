@@ -3,6 +3,10 @@
     "seo": {
       "title": "Bienvenue sur mon portfolio",
       "description": "Bienvenue sur mon portfolio. Je suis Valentin Gindre, développeur web. Je développe des sites web accessible à tous, les design à mes heures perdues. Et j’aime ça !"
+    },
+    "heading": {
+      "title": "Hey! Valentin, \ndéveloppeur web",
+      "subtitle": "Je développe des sites web accessible à tous. Les design à mes heures perdues. Et j'aime ça !"
     }
   }
-} 
+}

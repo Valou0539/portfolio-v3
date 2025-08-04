@@ -1,5 +1,7 @@
 <template>
-  <main></main>
+  <main>
+    <PagesHomeHeading />
+  </main>
 </template>
 <script lang="ts" setup>
 const { t } = useI18n();
