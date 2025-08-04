@@ -1,8 +1,8 @@
 <template>
   <header
-    class="fixed top-0 z-50 flex w-full items-center justify-between gap-16 px-4 pt-4 md:justify-center"
+    class="sticky top-0 z-50 flex w-full items-center justify-between gap-16 px-4 pt-4 md:justify-center"
   >
-    <CommonGlassDiv :rounded="999" :blur-amount="3" update-text-color>
+    <CommonGlassDiv :rounded="999" :blur-amount="3" with-glass-filter>
       <NuxtLinkLocale to="/" class="block p-3.5 md:hidden">
         <span class="sr-only">{{ $t("layout.topbar.home") }}</span>
         <HomeIcon class="size-6" />
@@ -15,7 +15,7 @@
       :rounded="26"
       :blur-amount="3"
       :open-alignment="openAlignment"
-      update-text-color
+      with-glass-filter
       @close="showPopup = false"
     >
       <template #default>

@@ -1,7 +1,6 @@
 <template>
   <div
-    ref="content"
-    class="glass shadow-2xs shadow-black/2 overflow-hidden transition-all duration-200"
+    class="shadow-2xs shadow-black/2 overflow-hidden transition-all duration-200"
     :style="{
       borderRadius: `${rounded}px`,
       position: position,
@@ -47,26 +46,18 @@ interface Props {
   rounded?: number;
   blurAmount?: number;
   opaque?: boolean;
-  updateTextColor?: boolean;
   withGlassFilter?: boolean;
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   position: "relative",
   rounded: 0,
   blurAmount: 0,
   opaque: false,
-  updateTextColor: false,
-  withGlassFilter: true,
+  withGlassFilter: false,
 });
 
 const glassFilterId = ref<string | null>(null);
-const content = useTemplateRef("content");
-
-if (props.updateTextColor) {
-  const { setupBackgroundCapture } = useGlassBackground();
-  setupBackgroundCapture(content);
-}
 
 onMounted(() => {
   glassFilterId.value = uuid();

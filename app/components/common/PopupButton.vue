@@ -7,7 +7,7 @@
       :rounded="rounded"
       :blurAmount="animationPhase === 'expand' ? blurAmount + 10 : blurAmount"
       :opaque="opaque"
-      :update-text-color="updateTextColor"
+      :withGlassFilter="withGlassFilter"
       @click.stop
     >
       <div :class="defaultContentClasses" ref="defaultContent">
@@ -27,7 +27,7 @@ interface Props {
   rounded?: number;
   blurAmount?: number;
   opaque?: boolean;
-  updateTextColor?: boolean;
+  withGlassFilter?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -37,7 +37,7 @@ const props = withDefaults(defineProps<Props>(), {
   rounded: 0,
   blurAmount: 0,
   opaque: false,
-  updateTextColor: false,
+  withGlassFilter: false,
 });
 
 const emit = defineEmits<{
