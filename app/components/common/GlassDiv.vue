@@ -32,7 +32,7 @@
         borderRadius: `${rounded}px`,
         padding: '1px',
         background:
-          'linear-gradient(165deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,0.7) 100%)',
+          'linear-gradient(165deg, var(--color-glass-border) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, var(--color-glass-border) 100%)',
         mask: 'linear-gradient(black 0px, black 0px) content-box exclude, linear-gradient(black 0px, black 0px)',
       }"
     ></div>

@@ -29,6 +29,10 @@
   --color-glass-opaque-light: rgba(255, 255, 255, 0.5);
   --color-glass-opaque-dark: rgba(255, 255, 255, 0.1);
   --color-glass-opaque: var(--color-glass-opaque-light);
+
+  --color-glass-border-light: rgba(255, 255, 255, 0.7);
+  --color-glass-border-dark: rgba(255, 255, 255, 0.2);
+  --color-glass-border: var(--color-glass-border-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +43,7 @@
     --color-primary-contrast: var(--color-primary-contrast-dark);
     --color-glass: var(--color-glass-dark);
     --color-glass-opaque: var(--color-glass-opaque-dark);
+    --color-glass-border: var(--color-glass-border-dark);
   }
 }
 
@@ -49,6 +54,7 @@
   --color-primary-contrast: var(--color-primary-contrast-light);
   --color-glass: var(--color-glass-light);
   --color-glass-opaque: var(--color-glass-opaque-light);
+  --color-glass-border: var(--color-glass-border-light);
 }
 
 .dark {
@@ -58,6 +64,7 @@
   --color-primary-contrast: var(--color-primary-contrast-dark);
   --color-glass: var(--color-glass-dark);
   --color-glass-opaque: var(--color-glass-opaque-dark);
+  --color-glass-border: var(--color-glass-border-dark);
 }
 
 body {
