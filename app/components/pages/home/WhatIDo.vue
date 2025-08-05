@@ -4,14 +4,8 @@
       <h2 class="sr-only">{{ $t("home.what-i-do.title") }}</h2>
       <div class="grid gap-8 p-8 md:grid-cols-2 md:gap-12 md:p-16">
         <div v-for="index in 4" :key="index">
-          <div
-            class="text-primary/50 font-heading mb-5 text-3xl md:mb-6 md:text-4xl"
-          >
-            {{ index }}
-          </div>
-          <h3
-            class="text-primary font-heading mb-3 text-3xl md:mb-4 md:text-4xl"
-          >
+          <div class="heading-3 mb-5 opacity-50 md:mb-6">0{{ index }}</div>
+          <h3 class="heading-3 mb-3 md:mb-4">
             {{ $t("home.what-i-do." + index + ".title") }}
           </h3>
           <p class="leading-normal md:text-xl">

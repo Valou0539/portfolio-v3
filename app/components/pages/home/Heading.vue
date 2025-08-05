@@ -2,9 +2,7 @@
   <section
     class="pb-18 relative mx-auto mt-20 max-w-5xl px-4 text-center md:mt-28"
   >
-    <h1
-      class="font-heading text-primary mb-[clamp(32px,5vw,48px)] whitespace-pre-line text-[clamp(36px,7vw,96px)] leading-[1.1]"
-    >
+    <h1 class="heading-1 mb-[clamp(32px,5vw,48px)]">
       {{ $t("home.heading.title") }}
     </h1>
     <p

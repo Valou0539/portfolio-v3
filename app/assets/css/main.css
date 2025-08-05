@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --text-3xl: 1.75rem;
+  --text-2.5xl: 1.625rem;
 
   --font-body: "Jost", system-ui, sans-serif;
   --font-heading: "Righteous", system-ui, sans-serif;
@@ -74,4 +74,16 @@ body {
 
 .tech-stack a {
   @apply text-secondary hover:text-primary font-medium transition-colors duration-200;
+}
+
+.heading-1 {
+  @apply font-heading text-primary whitespace-pre-line text-[clamp(36px,7vw,96px)] leading-[1.1];
+}
+
+.heading-2 {
+  @apply font-heading text-primary whitespace-pre-line text-3xl leading-[1.1] md:text-5xl;
+}
+
+.heading-3 {
+  @apply text-primary font-heading text-2xl leading-[1.1] md:text-4xl;
 }
