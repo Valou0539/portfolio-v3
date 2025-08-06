@@ -26,6 +26,10 @@
         "title": "I collaborate",
         "description": "I integrate easily into a team and communicate efficiently with designers, developers and clients, whatever the project context."
       }
+    },
+    "featured-projects": {
+      "title": "Featured projects",
+      "see-all": "All my projects"
     }
   }
 }

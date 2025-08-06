@@ -26,6 +26,10 @@
         "title": "Je collabore",
         "description": "Je m’intègre facilement en équipe et je communique efficacement avec les designers, développeurs et clients, quel que soit le contexte du projet."
       }
+    },
+    "featured-projects": {
+      "title": "Projets à la une",
+      "see-all": "Tous mes projets"
     }
   }
 }
