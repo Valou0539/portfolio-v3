@@ -38,6 +38,9 @@ const setGlassStyle = () => {
 };
 
 const route = useRoute();
-watch(() => route.path, setGlassStyle);
+watch(
+  () => route.path,
+  () => nextTick(setGlassStyle),
+);
 onMounted(setGlassStyle);
 </script>
