@@ -1,0 +1,37 @@
+{
+  "name": "Wantag",
+  "large": true,
+  "featured": true,
+  "featuredOrder": 2,
+  "cardTheme": "light",
+  "images": {
+    "card": {
+      "default": {
+        "src": "/images/projects/wantag/card.png",
+        "srcMobile": "/images/projects/wantag/card-mobile.png",
+        "alt": "projects.wantag.cover"
+      },
+      "large": {
+        "src": "/images/projects/wantag/card-large.png",
+        "srcMobile": "/images/projects/wantag/card-mobile-large.png",
+        "alt": "projects.wantag.cover"
+      }
+    },
+    "carousel": [
+      {
+        "src": "/images/projects/wantag/1.png",
+        "alt": "projects.wantag.carousel.1"
+      },
+      {
+        "src": "/images/projects/wantag/2.png",
+        "alt": "projects.wantag.carousel.2"
+      },
+      {
+        "src": "/images/projects/wantag/3.png",
+        "alt": "projects.wantag.carousel.3"
+      }
+    ]
+  },
+  "website": "https://wantag.com",
+  "techStack": ["tailwindcss", "tailwindcss", "tailwindcss", "tailwindcss"]
+}
