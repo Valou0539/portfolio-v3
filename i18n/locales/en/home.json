@@ -30,6 +30,12 @@
     "featured-projects": {
       "title": "Featured projects",
       "see-all": "All my projects"
+    },
+    "cta": {
+      "title": "Interested?",
+      "description": "I'm available to exchange, collaborate or simply discuss.",
+      "contact": "Contact me",
+      "more": "Learn more"
     }
   }
 }

@@ -3,6 +3,7 @@
     <PagesHomeHeading />
     <PagesHomeWhatIDo />
     <PagesHomeFeaturedProjects />
+    <PagesHomeCTA />
   </main>
 </template>
 <script lang="ts" setup>
