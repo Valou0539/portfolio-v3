@@ -27,7 +27,7 @@ const glass = useTemplateRef("glass");
 
 const setGlassStyle = () => {
   const selected = links.value?.find((link) =>
-    link?.$el.classList.contains("router-link-exact-active"),
+    link?.$el.classList.contains("router-link-active"),
   )?.$el;
 
   if (!selected || !glass.value) return;
