@@ -2,6 +2,7 @@
   <main>
     <PagesHomeHeading />
     <PagesHomeWhatIDo />
+    <PagesHomeFeaturedProjects />
   </main>
 </template>
 <script lang="ts" setup>
