@@ -8,13 +8,13 @@
     :class="classes"
   >
     <AssetsGlassFilter
-      v-if="withGlassFilter && glassFilterId"
+      v-if="withGlassFilter && glassFilterId && !isFirefox"
       :glassFilterId="glassFilterId"
       class="absolute h-full w-full"
     />
 
     <div
-      v-if="withGlassFilter && glassFilterId"
+      v-if="withGlassFilter && glassFilterId && !isFirefox"
       :style="{
         filter: `url(#${glassFilterId})`,
         backdropFilter: `blur(${blurAmount}px)`,
@@ -25,7 +25,8 @@
     <div
       class="relative"
       :style="{
-        backdropFilter: !withGlassFilter ? `blur(${blurAmount}px)` : undefined,
+        backdropFilter:
+          !withGlassFilter || isFirefox ? `blur(${blurAmount}px)` : undefined,
       }"
     >
       <slot />
@@ -63,6 +64,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 
 const glassFilterId = ref<string | null>(null);
+const isFirefox = ref<boolean | null>(null);
 
 const classes = computed(() => ({
   "bg-glass-opaque-light": props.forceTheme === "light" && props.opaque,
@@ -83,5 +85,8 @@ const colorGlassBorder = computed(() => {
 
 onMounted(() => {
   glassFilterId.value = uuid();
+  isFirefox.value = window.navigator.userAgent
+    .toLowerCase()
+    .includes("firefox");
 });
 </script>
