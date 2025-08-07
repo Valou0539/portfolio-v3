@@ -23,11 +23,16 @@
 <script lang="ts" setup>
 import { navigation } from "@/consts/navigation";
 
-const myLinks: {
-  label: string;
-  path: string;
-  target: "_blank";
-}[] = [
+const { locale } = useI18n();
+
+const myLinks = computed<
+  {
+    label?: string;
+    i18nKey?: string;
+    path: string;
+    target: "_blank";
+  }[]
+>(() => [
   {
     label: "GitHub",
     path: "https://github.com/valou0539",
@@ -38,10 +43,10 @@ const myLinks: {
     path: "https://www.linkedin.com/in/valentin-gindre",
     target: "_blank",
   },
-  /*{
-    label: "CV",
-    path: "/cv",
+  {
+    i18nKey: "layout.footer.cv",
+    path: `/CV-GINDRE_Valentin-${locale.value.toUpperCase()}.pdf`,
     target: "_blank",
-  },*/
-];
+  },
+]);
 </script>

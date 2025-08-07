@@ -22,7 +22,7 @@
       "tech_stack": "Design created in {figma} then coded on {windsurf} with passion. Built with {nuxt} and {tailwind}, then deployed on {vercel}. The {righteous} font was used for titles and {jost} for body. All icons come from {heroicons}.",
       "my-links": "My links",
       "navigation": "Navigation",
-      "cv": "Resumé",
+      "cv": "Resume",
       "copyright": "{year} © Valentin Gindre. All rights reserved."
     }
   }
