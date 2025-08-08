@@ -9,11 +9,15 @@
       class="absolute inset-0 hidden size-full object-cover sm:block"
       :src="imgDesktop?.src"
       alt=""
+      :width="!props.project.large || props.disableLarge ? '400' : '864'"
+      height="400"
     />
     <NuxtImg
       class="absolute inset-0 size-full object-cover object-top sm:hidden"
       :src="imgMobile?.srcMobile"
       alt=""
+      width="600"
+      :height="!props.project.large || props.disableLarge ? '400' : '855'"
     />
     <CommonGlassDiv
       :rounded="8"
