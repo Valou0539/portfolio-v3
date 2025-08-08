@@ -9,7 +9,8 @@
       "subtitle": "Actuellement basé à Dijon, entouré de nuages et de lignes de codes",
       "description": "J'ai commencé à coder par passion il y a {startCodingYears} ans, après quoi je me suis lancé en freelance depuis maintenant {startFreelanceYears} ans. Aujourd'hui, je jongle entre mes études en BUT informatique, mon alternance en tant que développeur fullstack et mes missions freelance.\n\n Ces différentes expériences m'ont permis de travailler sur des projets variés, d'explorer plusieurs domaines du développement web et de renforcer ma rigueur, ma curiosité et ma capacité à m'adapter rapidement.",
       "cvButton": "Voir mon CV",
-      "githubButton": "Mon GitHub"
+      "githubButton": "Mon GitHub",
+      "image-alt": "Valentin Gindre"
     },
     "technologies": {
       "title": "Technologies",

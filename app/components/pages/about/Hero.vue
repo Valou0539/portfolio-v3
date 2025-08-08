@@ -6,6 +6,7 @@
     <div class="px-4 md:flex md:items-start md:gap-8 lg:gap-16">
       <NuxtImg
         src="/images/about-me.JPEG"
+        :alt="$t('about.hero.image-alt')"
         class="mb-6 max-h-[340px] w-full overflow-auto rounded-full object-cover md:mb-0 lg:max-w-[340px] lg:flex-shrink-0"
       />
       <div>
