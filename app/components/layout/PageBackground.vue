@@ -1,8 +1,8 @@
 <template>
-  <div class="absolute left-0 top-0 -z-10 h-screen w-full overflow-hidden">
-    <div
-      class="gradient-slide absolute left-0 top-0 h-screen w-[600%] opacity-25"
-    ></div>
+  <div
+    class="absolute left-0 top-0 -z-10 h-screen w-full overflow-hidden opacity-25"
+  >
+    <div class="gradient-slide absolute inset-0"></div>
   </div>
 </template>
 
@@ -18,16 +18,17 @@
     hsl(185, 100%, 57%) 83.33%,
     hsl(38, 99%, 67%) 100%
   );
+  background-size: 300% 100%;
   mask: linear-gradient(to bottom, black 0%, transparent 100%);
-  animation: slideX 15s linear infinite;
+  animation: slideBg 15s linear infinite;
 }
 
-@keyframes slideX {
+@keyframes slideBg {
   from {
-    transform: translateX(0%);
+    background-position: 0 0;
   }
   to {
-    transform: translateX(-50%);
+    background-position: -75% 0;
   }
 }
 
