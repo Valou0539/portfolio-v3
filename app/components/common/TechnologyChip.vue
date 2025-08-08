@@ -10,7 +10,13 @@
       :class="['flex items-center', linkClasses]"
       target="_blank"
     >
-      <component :is="technologies[id].logo" :class="iconClasses" />
+      <svg
+        viewBox="0 0 24 24"
+        :style="{ color: `#${technologies[id].logo.hex}` }"
+        :class="iconClasses"
+      >
+        <path fill="currentColor" :d="technologies[id].logo.path" />
+      </svg>
       <span :class="{ 'sr-only': iconOnly }">{{ technologies[id].name }}</span>
     </NuxtLink>
   </CommonGlassDiv>

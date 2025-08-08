@@ -1,9 +1,9 @@
-import { AssetsLogoTailwindCSS } from "#components";
+import {siTailwindcss} from 'simple-icons';
 
 export default {
   tailwindcss: {
     name: "Tailwind CSS",
-    logo: AssetsLogoTailwindCSS,
+    logo: siTailwindcss,
     url: "https://tailwindcss.com",
   },
 };
