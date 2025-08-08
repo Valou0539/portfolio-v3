@@ -8,13 +8,11 @@
     "card": {
       "default": {
         "src": "/images/projects/purstream/card.png",
-        "srcMobile": "/images/projects/purstream/card-mobile.png",
-        "alt": "projects.purstream.cover"
+        "srcMobile": "/images/projects/purstream/card-mobile.png"
       },
       "large": {
         "src": "/images/projects/purstream/card-large.png",
-        "srcMobile": "/images/projects/purstream/card-mobile-large.png",
-        "alt": "projects.purstream.cover"
+        "srcMobile": "/images/projects/purstream/card-mobile-large.png"
       }
     },
     "carousel": [

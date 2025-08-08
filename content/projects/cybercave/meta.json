@@ -8,13 +8,11 @@
     "card": {
       "default": {
         "src": "/images/projects/cybercave/card.png",
-        "srcMobile": "/images/projects/cybercave/card-mobile.png",
-        "alt": "projects.cybercave.cover"
+        "srcMobile": "/images/projects/cybercave/card-mobile.png"
       },
       "large": {
         "src": "/images/projects/cybercave/card-large.png",
-        "srcMobile": "/images/projects/cybercave/card-mobile-large.png",
-        "alt": "projects.cybercave.cover"
+        "srcMobile": "/images/projects/cybercave/card-mobile-large.png"
       }
     },
     "carousel": [

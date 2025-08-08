@@ -27,14 +27,12 @@ export default defineContentConfig({
               .object({
                 src: z.string(),
                 srcMobile: z.string(),
-                alt: z.string(),
               })
               .optional(),
             large: z
               .object({
                 src: z.string(),
                 srcMobile: z.string(),
-                alt: z.string(),
               })
               .optional(),
           }),

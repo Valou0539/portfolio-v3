@@ -8,12 +8,12 @@
     <NuxtImg
       class="absolute inset-0 hidden size-full object-cover sm:block"
       :src="imgDesktop?.src"
-      :alt="imgDesktop?.alt"
+      alt=""
     />
     <NuxtImg
       class="absolute inset-0 size-full object-cover object-top sm:hidden"
       :src="imgMobile?.srcMobile"
-      :alt="imgMobile?.alt"
+      alt=""
     />
     <CommonGlassDiv
       :rounded="8"
@@ -84,7 +84,7 @@ const classes = computed(() => ({
 
 const colorClasses = computed(() => ({
   "!bg-black/10 text-primary-light": props.project.cardTheme === "light",
-  "!bg-black/60 text-primary-dark": props.project.cardTheme === "dark",
+  "!bg-black/80 text-primary-dark": props.project.cardTheme === "dark",
 }));
 
 const imgDesktop = computed(() => {

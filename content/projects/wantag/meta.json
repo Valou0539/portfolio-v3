@@ -8,13 +8,11 @@
     "card": {
       "default": {
         "src": "/images/projects/wantag/card.png",
-        "srcMobile": "/images/projects/wantag/card-mobile.png",
-        "alt": "projects.wantag.cover"
+        "srcMobile": "/images/projects/wantag/card-mobile.png"
       },
       "large": {
         "src": "/images/projects/wantag/card-large.png",
-        "srcMobile": "/images/projects/wantag/card-mobile-large.png",
-        "alt": "projects.wantag.cover"
+        "srcMobile": "/images/projects/wantag/card-mobile-large.png"
       }
     },
     "carousel": [
