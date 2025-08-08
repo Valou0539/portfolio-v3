@@ -5,7 +5,7 @@
     </h2>
     <div class="mb-4 flex flex-wrap gap-x-2 gap-y-1.5 md:gap-x-4 md:gap-y-2">
       <CommonTechnologyChip
-        v-for="id in Object.keys(technologies) as (keyof typeof technologies)[]"
+        v-for="id in technologiesKeys"
         :key="id"
         :id="id"
         size="large"
@@ -18,4 +18,8 @@
 </template>
 <script setup lang="ts">
 import technologies from "~/assets/data/technologies";
+
+const technologiesKeys = Object.keys(
+  technologies,
+) as (keyof typeof technologies)[];
 </script>
