@@ -7,6 +7,8 @@
       <NuxtImg
         src="/images/about-me.JPEG"
         :alt="$t('about.hero.image-alt')"
+        width="340"
+        height="340"
         class="mb-6 max-h-[340px] w-full overflow-auto rounded-full object-cover md:mb-0 lg:max-w-[340px] lg:flex-shrink-0"
       />
       <div>
