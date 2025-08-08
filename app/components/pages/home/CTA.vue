@@ -21,6 +21,7 @@ import { ChatBubbleLeftIcon } from "@heroicons/vue/24/outline";
       </CommonButton>
       <CommonButton to="/about" outline>
         {{ $t("home.cta.more") }}
+        <span class="sr-only">{{ $t("home.cta.more-sr") }}</span>
       </CommonButton>
     </div>
   </section>
