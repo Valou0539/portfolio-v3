@@ -1,6 +1,6 @@
 <template>
   <main>
-    <PagesHomeHeading />
+    <PagesHomeHero />
     <PagesHomeWhatIDo />
     <PagesHomeFeaturedProjects />
     <PagesHomeCTA />
