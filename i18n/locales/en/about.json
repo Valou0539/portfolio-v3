@@ -3,6 +3,20 @@
     "seo": {
       "title": "About me",
       "description": "Learn more about me, my skills and my experiences"
+    },
+    "hero": {
+      "title": "I'm Valentin",
+      "subtitle": "Currently based in Dijon, surrounded by clouds and lines of code",
+      "description": "I started coding out of passion {startCodingYears} years ago, after which I launched myself into freelancing for the past {startFreelanceYears} years. Today, I juggle between my studies in Computer Science BUT, my work-study program as a fullstack developer, and my freelance missions.\n\n These different experiences have allowed me to work on varied projects, explore several areas of web development, and strengthen my rigor, curiosity, and ability to adapt quickly.",
+      "cvButton": "View my CV",
+      "githubButton": "My GitHub"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "more": "... and much more!"
+    },
+    "experiences": {
+      "title": "Experiences"
     }
   }
 }
