@@ -11,7 +11,7 @@
         <LayoutFooterMenu
           class="w-1/2 flex-shrink-0 flex-grow"
           i18n-key-title="layout.footer.navigation"
-          :items="navigation"
+          :items="navigation.map((item) => ({ ...item, localeLink: true }))"
         />
       </div>
     </div>
@@ -31,22 +31,26 @@ const myLinks = computed<
     i18nKey?: string;
     path: string;
     target: "_blank";
+    localeLink?: boolean;
   }[]
 >(() => [
   {
     label: "GitHub",
     path: "https://github.com/valou0539",
     target: "_blank",
+    localeLink: false,
   },
   {
     label: "LinkedIn",
     path: "https://www.linkedin.com/in/valentin-gindre",
     target: "_blank",
+    localeLink: false,
   },
   {
     i18nKey: "layout.footer.cv",
     path: `/CV-GINDRE_Valentin-${locale.value.toUpperCase()}.pdf`,
     target: "_blank",
+    localeLink: false,
   },
 ]);
 </script>
