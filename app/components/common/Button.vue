@@ -1,19 +1,26 @@
 <template>
-  <button v-if="!to" :class="classes">
+  <button v-if="!to && !href" :class="classes">
     <slot />
   </button>
-  <NuxtLinkLocale v-else :to="to" :class="classes">
+  <NuxtLinkLocale v-else-if="to" :to="to" :class="classes" :target="target">
     <slot />
   </NuxtLinkLocale>
+  <a v-else :href="href" :class="classes" :target="target">
+    <slot />
+  </a>
 </template>
 <script lang="ts" setup>
 interface Props {
   to?: string;
+  href?: string;
+  target?: "_blank" | "_self" | "_parent" | "_top";
   outline?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   to: undefined,
+  href: undefined,
+  target: undefined,
   outline: false,
 });
 
