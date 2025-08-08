@@ -2,6 +2,7 @@
   <main>
     <PagesAboutHero />
     <PagesAboutTechnologies />
+    <PagesAboutExperiences />
   </main>
 </template>
 <script lang="ts" setup>

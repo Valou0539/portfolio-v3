@@ -16,7 +16,11 @@
       "more": "... et plus encore !"
     },
     "experiences": {
-      "title": "Expériences"
+      "title": "Expériences",
+      "now": "maintenant",
+      "job-title": {
+        "web-developer": "Développeur web"
+      }
     }
   }
 }

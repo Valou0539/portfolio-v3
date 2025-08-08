@@ -49,5 +49,27 @@ export default defineContentConfig({
         techStack: z.array(z.string()),
       }),
     }),
+    experiences_content: defineCollection({
+      type: "page",
+      source: {
+        include: "experiences/**/*.md",
+        prefix: "",
+      },
+    }),
+    experiences_meta: defineCollection({
+      type: "data",
+      source: {
+        include: "experiences/**/meta.json",
+        prefix: "",
+      },
+      schema: z.object({
+        jobTitle: z.string(),
+        company: z.string(),
+        companyLink: z.string().optional(),
+        startDate: z.string(),
+        endDate: z.string(),
+        techStack: z.array(z.string()),
+      }),
+    }),
   },
 });

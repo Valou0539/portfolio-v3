@@ -16,7 +16,11 @@
       "more": "... and much more!"
     },
     "experiences": {
-      "title": "Experiences"
+      "title": "Experiences",
+      "now": "now",
+      "job-title": {
+        "web-developer": "Web developer"
+      }
     }
   }
 }
