@@ -1,6 +1,7 @@
 <template>
   <main>
     <PagesAboutHero />
+    <PagesAboutTechnologies />
   </main>
 </template>
 <script lang="ts" setup>
