@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex aspect-[16/9] justify-center sm:px-4">
     <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
-      <div class="aspect-[16/9] max-w-[calc(1/3*100%)]">
+      <div class="aspect-[16/9]">
         <div :style="sliderStyle" class="relative flex">
           <PagesProjectHeroCarouselImage
             v-for="(image, index) in images"
