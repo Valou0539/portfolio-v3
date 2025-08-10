@@ -1,8 +1,8 @@
 {
   "name": "Cybercave",
+  "year": 2023,
   "large": true,
   "featured": true,
-  "featuredOrder": 3,
   "cardTheme": "dark",
   "images": {
     "card": {

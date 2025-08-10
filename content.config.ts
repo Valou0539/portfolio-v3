@@ -17,9 +17,9 @@ export default defineContentConfig({
       },
       schema: z.object({
         name: z.string(),
+        year: z.number(),
         large: z.boolean().optional(),
         featured: z.boolean().optional(),
-        featuredOrder: z.number().optional(),
         cardTheme: z.enum(["light", "dark"]),
         images: z.object({
           card: z.object({

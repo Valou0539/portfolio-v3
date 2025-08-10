@@ -32,11 +32,5 @@
 <script lang="ts" setup>
 import { ArrowUpRightIcon } from "@heroicons/vue/24/outline";
 
-const { data: featuredProjects } = await useAsyncData("featuredProjects", () =>
-  queryCollection("projects_meta")
-    .where("featured", "=", true)
-    .order("featuredOrder", "ASC")
-    .all(),
-);
-console.log(featuredProjects.value);
+const { data: featuredProjects } = await useProjects(true);
 </script>
