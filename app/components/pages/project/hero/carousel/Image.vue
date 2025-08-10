@@ -1,22 +1,15 @@
 <template>
   <NuxtImg
-    :src="image?.src"
-    :alt="image?.alt[$i18n.locale]"
+    v-bind="imageAttributes"
     :width="1920"
     :height="1080"
-    :class="[
-      'mr-2 size-full object-cover',
-      {
-        'opacity-50':
-          (index !== 1 || state !== 'movingPrev') &&
-          (index !== 2 || state !== 'idle') &&
-          (index !== 3 || state !== 'movingNext') &&
-          multiple,
-      },
-      {
-        'transition-opacity duration-500 ease-in-out': state !== 'idle',
-      },
-    ]"
+    class="hidden lg:block"
+  />
+  <NuxtImg
+    v-bind="imageAttributes"
+    :width="960"
+    :height="540"
+    class="block lg:hidden"
   />
 </template>
 <script lang="ts" setup>
@@ -28,5 +21,27 @@ interface Props {
   multiple?: boolean;
 }
 
-defineProps<Props>();
+const props = defineProps<Props>();
+
+const { locale } = useI18n();
+
+const imageAttributes = computed(() => {
+  return {
+    src: props.image?.src,
+    alt: props.image?.alt[locale.value],
+    class: [
+      "mr-2 size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
+      {
+        "opacity-50":
+          (props.index !== 1 || props.state !== "movingPrev") &&
+          (props.index !== 2 || props.state !== "idle") &&
+          (props.index !== 3 || props.state !== "movingNext") &&
+          props.multiple,
+      },
+      {
+        "transition-opacity duration-500 ease-in-out": props.state !== "idle",
+      },
+    ],
+  };
+});
 </script>
