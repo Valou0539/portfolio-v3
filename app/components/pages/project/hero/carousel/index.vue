@@ -1,15 +1,51 @@
 <template>
   <div class="relative flex aspect-[16/9] justify-center sm:px-4">
     <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
-      <div class="aspect-[16/9] w-[calc(1/3*100%)]">
-        <div ref="sliderRef" :style="sliderStyle" class="relative flex">
+      <div class="relative aspect-[16/9] w-[calc(1/3*100%)]">
+        <div
+          :class="[
+            'flex',
+            {
+              'transition-transform duration-500 ease-in-out':
+                !disabledTransition,
+            },
+          ]"
+          :style="{
+            width: `calc(${itemsCount > 1 ? itemsCount + 3 : 1} * (100% + 8px))`,
+            transform:
+              itemsCount > 1
+                ? `translateX(-${(index + 2) * (100 / (itemsCount + 3))}%)`
+                : undefined,
+          }"
+          @transitionend="handleSliderTransitionEnd"
+        >
           <PagesProjectHeroCarouselImage
-            v-for="(image, index) in images"
-            :key="index"
+            v-if="itemsCount > 1"
+            :image="projectCarousel.images.at(-2)!"
+            class="opacity-50"
+          />
+          <PagesProjectHeroCarouselImage
+            v-if="itemsCount > 1"
+            :image="projectCarousel.images.at(-1)!"
+            :class="{
+              'opacity-50': index !== -1 && index !== itemsCount - 1,
+            }"
+            fetch-priority-high
+          />
+          <PagesProjectHeroCarouselImage
+            v-for="(image, i) in projectCarousel.images"
+            :key="image.src"
             :image="image"
-            :index="index"
-            :state="state"
-            :multiple="itemsCount > 1"
+            :fetch-priority-high="i === 0 || i === 1"
+            :class="{
+              'opacity-50': index !== i,
+              '!duration-0': disabledTransition,
+            }"
+          />
+          <PagesProjectHeroCarouselImage
+            v-if="itemsCount > 1"
+            :image="projectCarousel.images[0]!"
+            class="opacity-50"
           />
         </div>
       </div>
@@ -17,20 +53,19 @@
     <PagesProjectHeroCarouselButton
       v-if="itemsCount > 1"
       type="prev"
-      :disabled="state !== 'idle'"
+      :disabled="disabledNav"
       @click="prev"
     />
     <PagesProjectHeroCarouselButton
       v-if="itemsCount > 1"
       type="next"
-      :disabled="state !== 'idle'"
+      :disabled="disabledNav"
       @click="next"
     />
   </div>
 </template>
 <script lang="ts" setup>
 import type { ProjectsCarouselCollectionItem } from "@nuxt/content";
-import type { CSSProperties } from "vue";
 
 interface Props {
   projectCarousel: ProjectsCarouselCollectionItem;
@@ -38,78 +73,39 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const sliderRef = useTemplateRef("sliderRef");
-
 const index = ref(0);
-const state = ref<"idle" | "movingPrev" | "movingNext">("idle");
-
 const itemsCount = computed(() => props.projectCarousel.images.length);
+const disabledNav = ref(false);
+const disabledTransition = ref(false);
 
-const images = computed(() => {
-  if (itemsCount.value === 1) return props.projectCarousel.images;
-
-  return [
-    props.projectCarousel.images[getNewIndex(-2)],
-    props.projectCarousel.images[getNewIndex(-1)],
-    props.projectCarousel.images[getNewIndex(0)],
-    props.projectCarousel.images[getNewIndex(1)],
-    props.projectCarousel.images[getNewIndex(2)],
-  ] as ProjectsCarouselCollectionItem["images"];
-});
-
-const sliderStyle = computed(() => {
-  if (itemsCount.value === 1) return { width: "100%" };
-
-  const style: CSSProperties = {
-    width: `calc(5 * (8px + 100%))`,
-  };
-
-  switch (state.value) {
-    case "idle":
-      style.transform = `translateX(-${(2 / 5) * 100}%)`;
-      break;
-    case "movingPrev":
-      style.transform = `translateX(-${(1 / 5) * 100}%)`;
-      style.transition = "transform 0.5s ease-in-out";
-      break;
-    case "movingNext":
-      style.transform = `translateX(-${(3 / 5) * 100}%)`;
-      style.transition = "transform 0.5s ease-in-out";
-      break;
-  }
-
-  return style;
-});
-
-const getNewIndex = (diff: number) => {
-  const newIndex = (index.value + diff) % itemsCount.value;
-  return newIndex < 0 ? itemsCount.value - 1 : newIndex;
+const prev = () => {
+  disabledNav.value = true;
+  index.value = index.value - 1;
 };
 
 const next = () => {
-  state.value = "movingNext";
-};
+  disabledNav.value = true;
 
-const prev = () => {
-  state.value = "movingPrev";
-};
-
-const onTransitionEnd = () => {
-  if (state.value === "movingNext") {
-    index.value = getNewIndex(1);
-  } else if (state.value === "movingPrev") {
-    index.value = getNewIndex(-1);
+  if (index.value + 1 >= itemsCount.value) {
+    disabledTransition.value = true;
+    index.value = -1;
   }
-  state.value = "idle";
+  setTimeout(() => {
+    disabledTransition.value = false;
+    index.value = index.value + 1;
+  }, 10);
 };
 
-onMounted(() => {
-  sliderRef.value?.addEventListener("transitionend", onTransitionEnd);
-});
-
-onBeforeUnmount(() => {
-  sliderRef.value?.removeEventListener("transitionend", onTransitionEnd);
-});
+const handleSliderTransitionEnd = () => {
+  if (index.value < 0) {
+    disabledTransition.value = true;
+    index.value = itemsCount.value - 1;
+  }
+  setTimeout(() => {
+    disabledTransition.value = false;
+    disabledNav.value = false;
+  }, 10);
+};
 </script>
 <style scoped>
 .slider-mask {

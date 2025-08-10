@@ -18,7 +18,7 @@
         :is="props.type === 'prev' ? ChevronLeftIcon : ChevronRightIcon"
         class="text-secondary-dark size-4 drop-shadow-2xl md:size-6 lg:size-8"
       />
-      <span class="sr-only">{{ $t(`projects.carousel-btn.${type}`) }}</span>
+      <span class="sr-only">{{ $t(`project.carousel-btn.${type}`) }}</span>
     </button>
   </CommonGlassDiv>
 </template>
@@ -26,7 +26,7 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/outline";
 
 interface Props {
-  disabled: boolean;
+  disabled?: boolean;
   type: "prev" | "next";
 }
 
