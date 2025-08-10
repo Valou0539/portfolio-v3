@@ -6,7 +6,7 @@
           <div
             v-for="(image, index) in images"
             :key="index"
-            class="h-full flex-grow"
+            class="mr-2 h-full flex-grow"
           >
             <PagesProjectHeroCarouselImage
               :image="image"

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="mx-auto mt-20 max-w-lg pb-8 md:mt-28 md:max-w-xl md:pb-12 lg:max-w-5xl"
+    class="mx-auto mt-20 pb-8 sm:max-w-xl md:mt-28 md:pb-12 lg:max-w-5xl"
   >
     <h1 class="heading-1 mb-8 px-4 text-center md:mb-12">
       {{ projectMeta.name }}

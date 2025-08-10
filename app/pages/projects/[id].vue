@@ -1,5 +1,5 @@
 <template>
-  <main v-if="projectMeta && project?.description">
+  <main v-if="projectMeta && project?.description" class="overflow-hidden">
     <PagesProjectHero
       :project-meta="projectMeta"
       :project-carousel="projectCarousel ?? undefined"
