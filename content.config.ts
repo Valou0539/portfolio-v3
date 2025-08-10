@@ -21,32 +21,42 @@ export default defineContentConfig({
         large: z.boolean().optional(),
         featured: z.boolean().optional(),
         cardTheme: z.enum(["light", "dark"]),
-        images: z.object({
-          card: z.object({
-            default: z
-              .object({
-                src: z.string(),
-                srcMobile: z.string(),
-              })
-              .optional(),
-            large: z
-              .object({
-                src: z.string(),
-                srcMobile: z.string(),
-              })
-              .optional(),
-          }),
-          carousel: z.array(
-            z.object({
+        cardImages: z.object({
+          default: z
+            .object({
               src: z.string(),
-              alt: z.string(),
-            }),
-          ),
+              srcMobile: z.string(),
+            })
+            .optional(),
+          large: z
+            .object({
+              src: z.string(),
+              srcMobile: z.string(),
+            })
+            .optional(),
         }),
         website: z.string().optional(),
         figma: z.string().optional(),
         github: z.string().optional(),
         techStack: z.array(z.string()),
+      }),
+    }),
+    projects_carousel: defineCollection({
+      type: "data",
+      source: {
+        include: "projects/**/carousel.json",
+        prefix: "",
+      },
+      schema: z.object({
+        images: z.array(
+          z.object({
+            src: z.string(),
+            alt: z.object({
+              en: z.string(),
+              fr: z.string(),
+            }),
+          }),
+        ),
       }),
     }),
     experiences_content: defineCollection({

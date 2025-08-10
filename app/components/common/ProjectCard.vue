@@ -93,13 +93,13 @@ const colorClasses = computed(() => ({
 
 const imgDesktop = computed(() => {
   return !props.project.large || props.disableLarge
-    ? props.project.images.card.default
-    : props.project.images.card.large;
+    ? props.project.cardImages.default
+    : props.project.cardImages.large;
 });
 
 const imgMobile = computed(() => {
   return !props.project.large || props.disableLarge
-    ? props.project.images.card.default
-    : props.project.images.card.large;
+    ? props.project.cardImages.default
+    : props.project.cardImages.large;
 });
 </script>

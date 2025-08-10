@@ -1,34 +1,18 @@
 {
   "name": "Wantag",
+  "year": 2024,
   "large": true,
   "featured": true,
-  "featuredOrder": 2,
   "cardTheme": "light",
-  "images": {
-    "card": {
-      "default": {
-        "src": "/images/projects/wantag/card.png",
-        "srcMobile": "/images/projects/wantag/card-mobile.png"
-      },
-      "large": {
-        "src": "/images/projects/wantag/card-large.png",
-        "srcMobile": "/images/projects/wantag/card-mobile-large.png"
-      }
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/wantag/card.png",
+      "srcMobile": "/images/projects/wantag/card-mobile.png"
     },
-    "carousel": [
-      {
-        "src": "/images/projects/wantag/1.png",
-        "alt": "projects.wantag.carousel.1"
-      },
-      {
-        "src": "/images/projects/wantag/2.png",
-        "alt": "projects.wantag.carousel.2"
-      },
-      {
-        "src": "/images/projects/wantag/3.png",
-        "alt": "projects.wantag.carousel.3"
-      }
-    ]
+    "large": {
+      "src": "/images/projects/wantag/card-large.png",
+      "srcMobile": "/images/projects/wantag/card-mobile-large.png"
+    }
   },
   "website": "https://wantag.com",
   "techStack": ["tailwindcss", "tailwindcss", "tailwindcss", "tailwindcss"]

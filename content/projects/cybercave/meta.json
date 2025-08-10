@@ -4,31 +4,15 @@
   "large": true,
   "featured": true,
   "cardTheme": "dark",
-  "images": {
-    "card": {
-      "default": {
-        "src": "/images/projects/cybercave/card.png",
-        "srcMobile": "/images/projects/cybercave/card-mobile.png"
-      },
-      "large": {
-        "src": "/images/projects/cybercave/card-large.png",
-        "srcMobile": "/images/projects/cybercave/card-mobile-large.png"
-      }
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/cybercave/card.png",
+      "srcMobile": "/images/projects/cybercave/card-mobile.png"
     },
-    "carousel": [
-      {
-        "src": "/images/projects/cybercave/1.png",
-        "alt": "projects.cybercave.carousel.1"
-      },
-      {
-        "src": "/images/projects/cybercave/2.png",
-        "alt": "projects.cybercave.carousel.2"
-      },
-      {
-        "src": "/images/projects/cybercave/3.png",
-        "alt": "projects.cybercave.carousel.3"
-      }
-    ]
+    "large": {
+      "src": "/images/projects/cybercave/card-large.png",
+      "srcMobile": "/images/projects/cybercave/card-mobile-large.png"
+    }
   },
   "figma": "https://www.figma.com/design/JSpIlI0li4IIhiKvkt17YB/Cyber-Cave?m=auto&t=me4Voq8Sfb1mzlpl-6",
   "techStack": [

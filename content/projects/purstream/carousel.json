@@ -1,0 +1,53 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/purstream/carousel/home.png",
+      "alt": {
+        "en": "Streaming home",
+        "fr": "Accueil"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/catalog.png",
+      "alt": {
+        "en": "Movie catalog",
+        "fr": "Catalogue des films"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/movie.png",
+      "alt": {
+        "en": "Movie detail",
+        "fr": "Fiche d'un film"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/player.png",
+      "alt": {
+        "en": "Video player",
+        "fr": "Lecteur vidéo"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/settings.png",
+      "alt": {
+        "en": "Settings",
+        "fr": "Paramètres"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/admin-movies.png",
+      "alt": {
+        "en": "Admin-panel movies list",
+        "fr": "Liste des films dans l'admin-panel"
+      }
+    },
+    {
+      "src": "/images/projects/purstream/carousel/admin-movie.png",
+      "alt": {
+        "en": "Admin-panel movie details",
+        "fr": "Détails d'un film dans l'admin-panel"
+      }
+    }
+  ]
+}

@@ -1,34 +1,18 @@
 {
   "name": "Purstream",
+  "year": 2025,
   "large": true,
   "featured": true,
-  "featuredOrder": 1,
   "cardTheme": "dark",
-  "images": {
-    "card": {
-      "default": {
-        "src": "/images/projects/purstream/card.png",
-        "srcMobile": "/images/projects/purstream/card-mobile.png"
-      },
-      "large": {
-        "src": "/images/projects/purstream/card-large.png",
-        "srcMobile": "/images/projects/purstream/card-mobile-large.png"
-      }
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/purstream/card.png",
+      "srcMobile": "/images/projects/purstream/card-mobile.png"
     },
-    "carousel": [
-      {
-        "src": "/images/projects/purstream/1.png",
-        "alt": "projects.purstream.carousel.1"
-      },
-      {
-        "src": "/images/projects/purstream/2.png",
-        "alt": "projects.purstream.carousel.2"
-      },
-      {
-        "src": "/images/projects/purstream/3.png",
-        "alt": "projects.purstream.carousel.3"
-      }
-    ]
+    "large": {
+      "src": "/images/projects/purstream/card-large.png",
+      "srcMobile": "/images/projects/purstream/card-mobile-large.png"
+    }
   },
   "website": "https://purstream.to",
   "techStack": ["tailwindcss", "tailwindcss", "tailwindcss", "tailwindcss"]

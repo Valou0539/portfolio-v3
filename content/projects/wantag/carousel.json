@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/wantag/1.png",
+      "alt": {
+        "en": "Nice image",
+        "fr": "Super image"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/2.png",
+      "alt": {
+        "en": "Nice image",
+        "fr": "Super image"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/3.png",
+      "alt": {
+        "en": "Nice image",
+        "fr": "Super image"
+      }
+    }
+  ]
+}
