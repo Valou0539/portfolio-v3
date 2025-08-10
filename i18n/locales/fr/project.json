@@ -1,0 +1,22 @@
+{
+  "project": {
+    "sections": {
+      "description": "Description",
+      "mainFunctionnalities": "Fonctionnalités clés",
+      "myRole": "Mon rôle",
+      "links": "Liens",
+      "technologies": "Technologies",
+      "otherProjects": "Autres projets"
+    },
+    "website": "Voir le site",
+    "figma": "Voir la maquette",
+    "carousel-btn": {
+      "prev": "Image précédente",
+      "next": "Image suivante"
+    },
+    "projects-btn": {
+      "prev": "Projet précédent :",
+      "next": "Projet suivant :"
+    }
+  }
+}
