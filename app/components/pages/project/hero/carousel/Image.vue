@@ -29,7 +29,7 @@ const imageAttributes = computed(() => {
     width: 1920,
     height: 1080,
     class: [
-      "mr-2 size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
+      "mr-2 aspect-[16/9] size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
       {
         "opacity-50":
           (props.index !== 1 || props.state !== "movingPrev") &&
