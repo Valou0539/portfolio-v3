@@ -6,7 +6,7 @@
     position="absolute"
     :class="[
       'top-1/2 -translate-y-1/2 !bg-black/40',
-      props.type === 'prev' ? 'left-4 md:left-8' : 'right-4 md:right-8',
+      props.type === 'prev' ? 'left-4 sm:left-8' : 'right-4 sm:right-8',
     ]"
   >
     <button
