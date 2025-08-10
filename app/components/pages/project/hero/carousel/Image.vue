@@ -42,6 +42,7 @@ const imageAttributes = computed(() => {
         "transition-opacity duration-500 ease-in-out": props.state !== "idle",
       },
     ],
+    fetchpriority: "high",
   };
 });
 </script>
