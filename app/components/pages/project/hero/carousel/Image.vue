@@ -1,6 +1,14 @@
 <template>
-  <NuxtImg v-bind="imageAttributes" class="lg:hidden" :quality="50" />
-  <NuxtImg v-bind="imageAttributes" class="hidden lg:block" :quality="100" />
+  <NuxtImg
+    v-bind="imageAttributes"
+    :src="props.image.srcMobile"
+    class="lg:hidden"
+  />
+  <NuxtImg
+    v-bind="imageAttributes"
+    :src="props.image.src"
+    class="hidden lg:block"
+  />
 </template>
 <script lang="ts" setup>
 import type { ProjectsCarouselCollectionItem } from "@nuxt/content";
@@ -17,7 +25,6 @@ const { locale } = useI18n();
 
 const imageAttributes = computed(() => {
   return {
-    src: props.image.src,
     alt: props.image.alt[locale.value],
     width: 1920,
     height: 1080,

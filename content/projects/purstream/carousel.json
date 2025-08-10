@@ -2,6 +2,7 @@
   "images": [
     {
       "src": "/images/projects/purstream/carousel/home.png",
+      "srcMobile": "/images/projects/purstream/carousel/home-mobile.png",
       "alt": {
         "en": "Streaming home",
         "fr": "Accueil"
@@ -9,6 +10,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/catalog.png",
+      "srcMobile": "/images/projects/purstream/carousel/catalog-mobile.png",
       "alt": {
         "en": "Movie catalog",
         "fr": "Catalogue des films"
@@ -16,6 +18,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/movie.png",
+      "srcMobile": "/images/projects/purstream/carousel/movie-mobile.png",
       "alt": {
         "en": "Movie detail",
         "fr": "Fiche d'un film"
@@ -23,6 +26,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/player.png",
+      "srcMobile": "/images/projects/purstream/carousel/player-mobile.png",
       "alt": {
         "en": "Video player",
         "fr": "Lecteur vidéo"
@@ -30,6 +34,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/settings.png",
+      "srcMobile": "/images/projects/purstream/carousel/settings-mobile.png",
       "alt": {
         "en": "Settings",
         "fr": "Paramètres"
@@ -37,6 +42,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/admin-movies.png",
+      "srcMobile": "/images/projects/purstream/carousel/admin-movies-mobile.png",
       "alt": {
         "en": "Admin-panel movies list",
         "fr": "Liste des films dans l'admin-panel"
@@ -44,6 +50,7 @@
     },
     {
       "src": "/images/projects/purstream/carousel/admin-movie.png",
+      "srcMobile": "/images/projects/purstream/carousel/admin-movie-mobile.png",
       "alt": {
         "en": "Admin-panel movie details",
         "fr": "Détails d'un film dans l'admin-panel"
