@@ -1,14 +1,16 @@
 <template>
-  <NuxtImg
-    v-bind="imageAttributes"
-    :src="props.image.srcMobile"
-    class="lg:hidden"
-  />
-  <NuxtImg
-    v-bind="imageAttributes"
-    :src="props.image.src"
-    class="hidden lg:block"
-  />
+  <div class="mr-2 flex-grow">
+    <NuxtImg
+      v-bind="imageAttributes"
+      :src="props.image.srcMobile"
+      class="lg:hidden"
+    />
+    <NuxtImg
+      v-bind="imageAttributes"
+      :src="props.image.src"
+      class="hidden lg:block"
+    />
+  </div>
 </template>
 <script lang="ts" setup>
 import type { ProjectsCarouselCollectionItem } from "@nuxt/content";
@@ -29,7 +31,7 @@ const imageAttributes = computed(() => {
     width: 1920,
     height: 1080,
     class: [
-      "mr-2 size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
+      "size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
       {
         "opacity-50":
           (props.index !== 1 || props.state !== "movingPrev") &&
