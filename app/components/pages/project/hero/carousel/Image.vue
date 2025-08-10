@@ -1,5 +1,5 @@
 <template>
-  <NuxtImg v-bind="imageAttributes" class="md:hidden" :quality="50" />
+  <NuxtImg v-bind="imageAttributes" class="lg:hidden" :quality="50" />
   <NuxtImg v-bind="imageAttributes" class="hidden lg:block" :quality="100" />
 </template>
 <script lang="ts" setup>
