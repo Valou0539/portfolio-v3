@@ -3,14 +3,18 @@
     <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
       <div class="aspect-[16/9]">
         <div :style="sliderStyle" class="relative flex">
-          <PagesProjectHeroCarouselImage
+          <div
             v-for="(image, index) in images"
             :key="index"
-            :image="image"
-            :index="index"
-            :state="state"
-            :multiple="itemsCount > 1"
-          />
+            class="h-full flex-grow"
+          >
+            <PagesProjectHeroCarouselImage
+              :image="image"
+              :index="index"
+              :state="state"
+              :multiple="itemsCount > 1"
+            />
+          </div>
         </div>
       </div>
     </div>
