@@ -15,7 +15,7 @@ import type { ProjectsCarouselCollectionItem } from "@nuxt/content";
 interface Props {
   image: ProjectsCarouselCollectionItem["images"][number];
   index: number;
-  state: "idle" | "movingPrev" | "movingNext";
+  state: "idle" | "transitioning";
   multiple?: boolean;
 }
 
@@ -31,14 +31,10 @@ const imageAttributes = computed(() => {
     class: [
       "size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl",
       {
-        "opacity-50":
-          (props.index !== 1 || props.state !== "movingPrev") &&
-          (props.index !== 2 || props.state !== "idle") &&
-          (props.index !== 3 || props.state !== "movingNext") &&
-          props.multiple,
+        "opacity-50": props.index !== 2 && props.multiple,
       },
       {
-        "transition-opacity duration-500 ease-in-out": props.state !== "idle",
+        "transition-opacity duration-500 ease-in-out": props.state === "transitioning",
       },
     ],
     fetchpriority: "high",

@@ -43,7 +43,8 @@ interface Props {
 const props = defineProps<Props>();
 
 const index = ref(0);
-const state = ref<"idle" | "movingPrev" | "movingNext">("idle");
+const state = ref<"idle" | "transitioning">("idle");
+const translateOffset = ref(0);
 
 const itemsCount = computed(() => props.projectCarousel.images.length);
 
@@ -64,38 +65,41 @@ const sliderStyle = computed(() => {
 
   const style: CSSProperties = {
     width: `calc(5 * (8px + 100%))`,
+    transform: `translateX(-${((2 + translateOffset.value) / 5) * 100}%)`,
   };
 
-  switch (state.value) {
-    case "idle":
-      style.transform = `translateX(-${(2 / 5) * 100}%)`;
-      break;
-    case "movingPrev":
-      style.transform = `translateX(-${(1 / 5) * 100}%)`;
-      style.transition = "transform 0.5s ease-in-out";
-      break;
-    case "movingNext":
-      style.transform = `translateX(-${(3 / 5) * 100}%)`;
-      style.transition = "transform 0.5s ease-in-out";
-      break;
+  if (state.value === "transitioning") {
+    style.transition = "transform 0.5s ease-in-out";
   }
 
   return style;
 });
 
 const next = () => {
-  state.value = "movingNext";
+  if (state.value !== "idle") return;
+  
+  state.value = "transitioning";
+  translateOffset.value = 1;
+  
   setTimeout(() => {
-    index.value = getNewIndex(1);
+    // Reset without transition
     state.value = "idle";
+    translateOffset.value = 0;
+    index.value = getNewIndex(1);
   }, 500);
 };
 
 const prev = () => {
-  state.value = "movingPrev";
+  if (state.value !== "idle") return;
+  
+  state.value = "transitioning";
+  translateOffset.value = -1;
+  
   setTimeout(() => {
-    index.value = getNewIndex(-1);
+    // Reset without transition
     state.value = "idle";
+    translateOffset.value = 0;
+    index.value = getNewIndex(-1);
   }, 500);
 };
 
