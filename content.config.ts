@@ -51,7 +51,6 @@ export default defineContentConfig({
         images: z.array(
           z.object({
             src: z.string(),
-            srcMobile: z.string(),
             alt: z.object({
               en: z.string(),
               fr: z.string(),

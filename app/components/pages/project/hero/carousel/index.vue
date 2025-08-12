@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex aspect-[16/9] justify-center sm:px-4">
+  <div class="relative flex aspect-[16/9] justify-center sm:mx-4">
     <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
       <div class="relative aspect-[16/9] w-[calc(1/3*100%)]">
         <div
@@ -62,6 +62,21 @@
       :disabled="disabledNav"
       @click="next"
     />
+    <CommonGlassDiv
+      :rounded="999"
+      :blur-amount="2"
+      position="absolute"
+      :class="[
+        {
+          'scale-0 opacity-0 !duration-0': disabledNav,
+        },
+        'bottom-2 right-2 !bg-black/40 py-1',
+      ]"
+    >
+      <span class="text-secondary-dark px-2 drop-shadow-2xl">{{
+        projectCarousel.images[index]?.alt[$i18n.locale]
+      }}</span>
+    </CommonGlassDiv>
   </div>
 </template>
 <script lang="ts" setup>
