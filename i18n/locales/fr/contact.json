@@ -3,6 +3,41 @@
     "seo": {
       "title": "Contactez moi",
       "description": "Une question, une opportunité ou simplement envie d’échanger ? N'hésitez pas à me contacter."
+    },
+    "title": "Me contacter",
+    "subtitle": "Une question, une opportunité ou simplement envie d’échanger ? Laissez-moi un message et je vous répondrai rapidement à l’adresse email que vous avez fournie.",
+    "form": {
+      "firstname": {
+        "label": "Prénom",
+        "placeholder": "Votre prénom",
+        "error": "Prénom trop court"
+      },
+      "lastname": {
+        "label": "Nom",
+        "placeholder": "Votre nom",
+        "error": "Nom trop court"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Votre email",
+        "error": "Email invalide"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Votre sujet",
+        "error": "Sujet trop court"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Votre message",
+        "error": "Message trop court"
+      },
+      "button": {
+        "default": "Envoyer",
+        "loading": "Envoi en cours...",
+        "success": "Message envoyé !",
+        "error": "Veuillez réessayer"
+      }
     }
   }
 }

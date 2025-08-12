@@ -3,6 +3,36 @@
     "seo": {
       "title": "Contact me",
       "description": "A question, an opportunity or simply want to exchange? Don't hesitate to contact me."
+    },
+    "title": "Contact me",
+    "subtitle": "A question, an opportunity or simply want to exchange? Leave me a message and I'll answer you as soon as possible at the email address you provided.",
+    "form": {
+      "firstname": {
+        "label": "First name",
+        "placeholder": "Your first name"
+      },
+      "lastname": {
+        "label": "Last name",
+        "placeholder": "Your last name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Your subject"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message"
+      },
+      "button": {
+        "default": "Send",
+        "loading": "Sending...",
+        "success": "Message sent!",
+        "error": "Please try again"
+      }
     }
   }
 }
