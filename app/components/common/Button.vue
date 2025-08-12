@@ -1,5 +1,5 @@
 <template>
-  <button v-if="!to && !href" :class="classes">
+  <button v-if="!to && !href" :class="classes" :type="type">
     <slot />
   </button>
   <NuxtLinkLocale v-else-if="to" :to="to" :class="classes" :target="target">
@@ -15,6 +15,7 @@ interface Props {
   href?: string;
   target?: "_blank" | "_self" | "_parent" | "_top";
   outline?: boolean;
+  type?: "button" | "submit" | "reset";
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -22,6 +23,7 @@ const props = withDefaults(defineProps<Props>(), {
   href: undefined,
   target: undefined,
   outline: false,
+  type: "button",
 });
 
 const classes = computed(() => {
