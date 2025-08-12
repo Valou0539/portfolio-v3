@@ -18,18 +18,7 @@
 </template>
 
 <script lang="ts" setup>
-const rounded = ref(32);
-
-const handleResize = () => {
-  rounded.value = window.innerWidth < 768 ? 16 : 32;
-};
-
-onMounted(() => {
-  handleResize();
-  window.addEventListener("resize", handleResize);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("resize", handleResize);
+const rounded = useBreakpoints(16, {
+  md: 32,
 });
 </script>
