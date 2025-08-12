@@ -66,4 +66,11 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+
+  runtimeConfig: {
+    emailUser: process.env.MAIL_USER,
+    emailPassword: process.env.MAIL_PASSWORD,
+    emailHost: process.env.MAIL_HOST,
+    emailPort: process.env.MAIL_PORT,
+  },
 });
