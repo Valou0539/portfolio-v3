@@ -55,7 +55,12 @@
             opaque
           >
             <div
-              class="text-secondary-dark flex items-center justify-center px-1.5 py-1 text-xs leading-4 md:text-sm"
+              :class="[
+                'flex items-center justify-center px-1.5 py-1 text-xs leading-4 md:text-sm',
+                project.cardTheme === 'light'
+                  ? 'text-secondary-light'
+                  : 'text-secondary-dark',
+              ]"
             >
               +{{ project.techStack.length - 3 }}
             </div>
