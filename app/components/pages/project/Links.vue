@@ -9,11 +9,11 @@
       {{ $t("project.figma") }}
       <ArrowTopRightOnSquareIcon class="size-4.5 md:size-5" />
     </CommonButton>
-    <CommonButton v-if="projectMeta?.github" :href="projectMeta.github">
+    <CommonButton v-if="projectMeta?.github" :href="projectMeta.github" outline>
       <svg viewBox="0 0 24 24" class="size-4.5 md:size-5">
         <path fill="currentColor" :d="siGithub.path" />
       </svg>
-      {{ $t("project.github") }}
+      GitHub
     </CommonButton>
   </section>
 </template>
