@@ -63,6 +63,7 @@
       @click="next"
     />
     <CommonGlassDiv
+      v-if="projectCarousel.images.length > 1"
       :rounded="999"
       :blur-amount="2"
       position="absolute"
@@ -70,12 +71,13 @@
         {
           'scale-0 opacity-0 !duration-0': disabledNav,
         },
-        'bottom-2 right-2 !bg-black/40 py-1',
+        'bottom-2 right-2 !bg-black/60',
       ]"
     >
-      <span class="text-secondary-dark px-2 drop-shadow-2xl">{{
-        projectCarousel.images[index]?.alt[$i18n.locale]
-      }}</span>
+      <span
+        class="text-secondary-dark px-2 py-1 text-xs drop-shadow-2xl sm:text-sm md:text-base"
+        >{{ projectCarousel.images[index]?.alt[$i18n.locale] }}</span
+      >
     </CommonGlassDiv>
   </div>
 </template>
