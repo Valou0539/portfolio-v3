@@ -4,40 +4,40 @@
       "src": "/images/projects/purstream/carousel/home.png",
       "srcMobile": "/images/projects/purstream/carousel/home-mobile.png",
       "alt": {
-        "en": "Streaming home",
-        "fr": "Accueil"
+        "en": "Streaming home with featured movies and carousels",
+        "fr": "Accueil avec les films en vedette et plusieurs carrousels"
       }
     },
     {
       "src": "/images/projects/purstream/carousel/catalog.png",
       "srcMobile": "/images/projects/purstream/carousel/catalog-mobile.png",
       "alt": {
-        "en": "Movie catalog",
-        "fr": "Catalogue des films"
+        "en": "Movie catalog with filters",
+        "fr": "Catalogue des films avec filtres"
       }
     },
     {
       "src": "/images/projects/purstream/carousel/movie.png",
       "srcMobile": "/images/projects/purstream/carousel/movie-mobile.png",
       "alt": {
-        "en": "Movie detail",
-        "fr": "Fiche d'un film"
+        "en": "Movie detail with reviews and recommendations",
+        "fr": "Fiche d'un film avec des avis et d'autres recommandations"
       }
     },
     {
       "src": "/images/projects/purstream/carousel/player.png",
       "srcMobile": "/images/projects/purstream/carousel/player-mobile.png",
       "alt": {
-        "en": "Video player",
-        "fr": "Lecteur vidéo"
+        "en": "Video player with controls and source selection",
+        "fr": "Lecteur vidéo avec les contrôles dont le choix de la source"
       }
     },
     {
       "src": "/images/projects/purstream/carousel/settings.png",
       "srcMobile": "/images/projects/purstream/carousel/settings-mobile.png",
       "alt": {
-        "en": "Settings",
-        "fr": "Paramètres"
+        "en": "Account settings",
+        "fr": "Paramètres de compte"
       }
     },
     {

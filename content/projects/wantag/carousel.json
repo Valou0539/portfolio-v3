@@ -1,24 +1,52 @@
 {
   "images": [
     {
-      "src": "/images/projects/wantag/1.png",
+      "src": "/images/projects/wantag/carousel/project.webp",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "A project with its statistics, members and actions",
+        "fr": "Un projet avec ses statistiques, membres et actions"
       }
     },
     {
-      "src": "/images/projects/wantag/2.png",
+      "src": "/images/projects/wantag/carousel/company.webp",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "A company with its members and their roles",
+        "fr": "Une société avec ses membres et leurs rôles"
       }
     },
     {
-      "src": "/images/projects/wantag/3.png",
+      "src": "/images/projects/wantag/carousel/ticket.webp",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "A ticket with its content and a related chat",
+        "fr": "Un ticket avec son contenu et une discussion liée"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/carousel/tickets.webp",
+      "alt": {
+        "en": "The tickets list",
+        "fr": "La liste des tickets"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/carousel/time-tracking.webp",
+      "alt": {
+        "en": "The time tracking list",
+        "fr": "La liste des suivis de temps"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/carousel/settings.png",
+      "alt": {
+        "en": "General settings",
+        "fr": "Paramètres généraux"
+      }
+    },
+    {
+      "src": "/images/projects/wantag/carousel/landing.png",
+      "alt": {
+        "en": "The landing page",
+        "fr": "La page d'accueil"
       }
     }
   ]

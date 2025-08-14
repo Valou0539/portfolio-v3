@@ -1,24 +1,52 @@
 {
   "images": [
     {
-      "src": "/images/projects/cybercave/1.png",
+      "src": "/images/projects/cybercave/carousel/home.png",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "Homepage with hero section and main navigation",
+        "fr": "Page d'accueil avec section héro et navigation principale"
       }
     },
     {
-      "src": "/images/projects/cybercave/2.png",
+      "src": "/images/projects/cybercave/carousel/products.png",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "Products catalog with search bar",
+        "fr": "Catalogue des produits avec barre de recherche"
       }
     },
     {
-      "src": "/images/projects/cybercave/3.png",
+      "src": "/images/projects/cybercave/carousel/auth.png",
       "alt": {
-        "en": "Nice image",
-        "fr": "Super image"
+        "en": "Registration and login interface",
+        "fr": "Interface d'inscription et de connexion"
+      }
+    },
+    {
+      "src": "/images/projects/cybercave/carousel/account-profile.png",
+      "alt": {
+        "en": "User account profile page",
+        "fr": "Page de profil utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/cybercave/carousel/account-reservations.png",
+      "alt": {
+        "en": "User reservations management",
+        "fr": "Gestion des réservations utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/cybercave/carousel/forum.png",
+      "alt": {
+        "en": "Community forum topics list",
+        "fr": "Liste des topics du forum"
+      }
+    },
+    {
+      "src": "/images/projects/cybercave/carousel/adminpanel.png",
+      "alt": {
+        "en": "Administration panel dashboard",
+        "fr": "Tableau de bord du panel d'administration"
       }
     }
   ]

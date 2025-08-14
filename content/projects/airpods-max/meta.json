@@ -1,0 +1,22 @@
+{
+  "name": "Airpods Max Concept",
+  "year": 2024,
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/airpods-max/card.png",
+      "srcMobile": "/images/projects/airpods-max/card-mobile.png"
+    }
+  },
+  "website": "https://airpods-max.valentin-gindre.fr",
+  "github": "https://github.com/Valou0539/AirPodsMax_Concept",
+  "techStack": [
+    "tailwindcss",
+    "tailwindcss",
+    "tailwindcss",
+    "tailwindcss",
+    "tailwindcss"
+  ]
+}
