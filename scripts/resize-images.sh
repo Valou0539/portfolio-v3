@@ -92,13 +92,13 @@ resize_project_images() {
         print_warning "  card-mobile-large.png not found"
     fi
     
-    # Resize carousel images to 1920x1080 with top-center alignment
+    # Resize carousel images to 1152x648 with top-center alignment
     if [ -d "carousel" ]; then
         carousel_count=$(find carousel -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" | wc -l)
         if [ "$carousel_count" -gt 0 ]; then
-            print_info "  Resizing $carousel_count carousel images to 1920x1080 (top-center alignment)..."
+            print_info "  Resizing $carousel_count carousel images to 1152x648 (top-center alignment)..."
             # Use -gravity north for top-center alignment
-            mogrify -path carousel -resize 1920x1080^ -gravity north -extent 1920x1080 carousel/*.{png,jpg,jpeg} 2>/dev/null || true
+            mogrify -path carousel -resize 1152x648^ -gravity north -extent 1152x648 carousel/*.{png,jpg,jpeg} 2>/dev/null || true
             print_success "  ✓ Carousel images resized"
         else
             print_warning "  No images found in carousel directory"

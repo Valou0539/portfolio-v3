@@ -7,8 +7,8 @@
       class="size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl"
       :fetchpriority="props.fetchPriorityHigh ? 'high' : undefined"
       :alt="props.image.alt[$i18n.locale]"
-      width="1920"
-      height="1080"
+      width="1152"
+      height="648"
     />
   </div>
 </template>
