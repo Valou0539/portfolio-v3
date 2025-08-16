@@ -19,7 +19,7 @@
 <script setup lang="ts">
 import technologies from "~/assets/data/technologies";
 
-const technologiesKeys = Object.keys(
-  technologies,
-) as (keyof typeof technologies)[];
+const technologiesKeys = Object.entries(technologies)
+  .filter(([_, tech]) => tech.showInAbout)
+  .map(([key]) => key as keyof typeof technologies);
 </script>
