@@ -1,0 +1,11 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/easycamp/carousel/home.png",
+      "alt": {
+        "en": "Main interface of EasyCamp",
+        "fr": "Interface principale de EasyCamp"
+      }
+    }
+  ]
+}

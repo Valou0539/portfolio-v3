@@ -1,15 +1,28 @@
 <template>
   <section class="space-y-4">
     <h2 class="sr-only">{{ $t("project.sections.links") }}</h2>
-    <CommonButton v-if="projectMeta?.website" :href="projectMeta.website">
+    <CommonButton
+      v-if="projectMeta?.website"
+      :href="projectMeta.website"
+      target="_blank"
+    >
       {{ $t("project.website") }}
       <ArrowTopRightOnSquareIcon class="size-4.5 md:size-5" />
     </CommonButton>
-    <CommonButton v-if="projectMeta?.figma" :href="projectMeta.figma">
+    <CommonButton
+      v-if="projectMeta?.figma"
+      :href="projectMeta.figma"
+      target="_blank"
+    >
       {{ $t("project.figma") }}
       <ArrowTopRightOnSquareIcon class="size-4.5 md:size-5" />
     </CommonButton>
-    <CommonButton v-if="projectMeta?.github" :href="projectMeta.github" outline>
+    <CommonButton
+      v-if="projectMeta?.github"
+      :href="projectMeta.github"
+      target="_blank"
+      outline
+    >
       <svg viewBox="0 0 24 24" class="size-4.5 md:size-5">
         <path fill="currentColor" :d="siGithub.path" />
       </svg>

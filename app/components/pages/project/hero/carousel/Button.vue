@@ -2,7 +2,6 @@
   <CommonGlassDiv
     :rounded="999"
     :blur-amount="2"
-    with-glass-filter
     position="absolute"
     :class="[
       'top-1/2 -translate-y-1/2 !bg-black/40',

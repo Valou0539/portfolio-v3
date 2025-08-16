@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio V1",
+  "year": 2023,
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/portfolio-v1/card.png",
+      "srcMobile": "/images/projects/portfolio-v1/card-mobile.png"
+    }
+  },
+  "website": "https://v1.valentin-gindre.fr/",
+  "github": "https://github.com/Valou0539/portfolio",
+  "techStack": ["tailwindcss"]
+}

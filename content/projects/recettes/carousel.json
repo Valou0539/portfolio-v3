@@ -1,0 +1,53 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/recettes/carousel/home.png",
+      "alt": {
+        "en": "Recettes homepage with recipe gallery",
+        "fr": "Page d'accueil de Recettes avec galerie de recettes"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/register.png",
+      "alt": {
+        "en": "User registration page",
+        "fr": "Page d'inscription utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/login.png",
+      "alt": {
+        "en": "User login page",
+        "fr": "Page de connexion utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/search.png",
+      "alt": {
+        "en": "Recipe search interface",
+        "fr": "Interface de recherche de recettes"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/recipe.png",
+      "alt": {
+        "en": "Recipe detail page",
+        "fr": "Page de détail d'une recette"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/recipe-create.png",
+      "alt": {
+        "en": "Recipe creation form",
+        "fr": "Formulaire de création de recette"
+      }
+    },
+    {
+      "src": "/images/projects/recettes/carousel/recipe-edit.png",
+      "alt": {
+        "en": "Recipe editing interface",
+        "fr": "Interface d'édition de recette"
+      }
+    }
+  ]
+}

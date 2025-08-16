@@ -1,0 +1,21 @@
+{
+  "name": "Calcule Ma Moyenne",
+  "year": 2023,
+  "large": false,
+  "featured": false,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/calcule-ma-moyenne/card.png",
+      "srcMobile": "/images/projects/calcule-ma-moyenne/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/calcule-ma-moyenne/card-large.png",
+      "srcMobile": "/images/projects/calcule-ma-moyenne/card-mobile-large.png"
+    }
+  },
+  "website": "",
+  "figma": "",
+  "github": "",
+  "techStack": ["tailwindcss"]
+}

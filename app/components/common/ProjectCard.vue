@@ -6,18 +6,18 @@
     ]"
   >
     <NuxtImg
-      class="absolute inset-0 hidden size-full object-cover sm:block"
+      class="absolute inset-0 hidden size-full object-cover object-top sm:block"
       :src="imgDesktop?.src"
       alt=""
-      :width="!props.project.large || props.disableLarge ? '400' : '864'"
-      height="400"
+      :width="!props.project.large || props.disableLarge ? '667' : '1000'"
+      height="667"
     />
     <NuxtImg
       class="absolute inset-0 size-full object-cover object-top sm:hidden"
       :src="imgMobile?.srcMobile"
       alt=""
-      width="600"
-      :height="!props.project.large || props.disableLarge ? '400' : '855'"
+      width="1000"
+      :height="!props.project.large || props.disableLarge ? '667' : '1500'"
     />
     <CommonGlassDiv
       :rounded="8"
@@ -28,11 +28,11 @@
       <div class="p-4">
         <NuxtLinkLocale
           :to="link"
-          class="font-heading group mb-4 flex items-start justify-between gap-2 leading-[1.1] md:text-xl"
+          class="font-heading group mb-4 flex items-start justify-between gap-2 leading-[1.1] lg:text-xl"
         >
           {{ project.name }}
           <AssetsProjectCardLinkIcon
-            class="size-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 md:size-4"
+            class="size-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 lg:size-4"
           />
         </NuxtLinkLocale>
         <div class="flex flex-wrap items-center gap-2">

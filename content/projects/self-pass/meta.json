@@ -1,0 +1,16 @@
+{
+  "name": "Self-pass",
+  "year": 2021,
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/self-pass/card.png",
+      "srcMobile": "/images/projects/self-pass/card-mobile.png"
+    }
+  },
+  "website": "https://valou0539.github.io/self_pass/",
+  "github": "https://github.com/Valou0539/self_pass",
+  "techStack": ["tailwindcss"]
+}

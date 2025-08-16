@@ -1,0 +1,15 @@
+{
+  "name": "Dev Boost v2",
+  "year": 2023,
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/dev-boost-v2/card.png",
+      "srcMobile": "/images/projects/dev-boost-v2/card-mobile.png"
+    }
+  },
+  "website": "https://www.dev-boost.fr",
+  "techStack": ["tailwindcss"]
+}

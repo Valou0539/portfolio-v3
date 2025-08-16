@@ -1,0 +1,19 @@
+{
+  "name": "HoardGames",
+  "year": 2024,
+  "large": true,
+  "featured": false,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/hoardgames/card.png",
+      "srcMobile": "/images/projects/hoardgames/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/hoardgames/card-large.png",
+      "srcMobile": "/images/projects/hoardgames/card-mobile-large.png"
+    }
+  },
+  "figma": "https://www.figma.com/design/6KRfe5infT1Am66mTsJmvf/HoardGames?node-id=1-1219&t=9uS2mzoKq3vEbFoQ-1",
+  "techStack": ["tailwindcss"]
+}
