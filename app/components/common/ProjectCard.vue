@@ -6,18 +6,18 @@
     ]"
   >
     <NuxtImg
-      class="absolute inset-0 hidden size-full object-cover sm:block"
+      class="absolute inset-0 hidden size-full object-cover object-top sm:block"
       :src="imgDesktop?.src"
       alt=""
-      :width="!props.project.large || props.disableLarge ? '400' : '864'"
-      height="400"
+      :width="!props.project.large || props.disableLarge ? '667' : '1000'"
+      height="667"
     />
     <NuxtImg
       class="absolute inset-0 size-full object-cover object-top sm:hidden"
       :src="imgMobile?.srcMobile"
       alt=""
-      width="600"
-      :height="!props.project.large || props.disableLarge ? '400' : '855'"
+      width="1000"
+      :height="!props.project.large || props.disableLarge ? '667' : '1500'"
     />
     <CommonGlassDiv
       :rounded="8"
