@@ -4,7 +4,9 @@
       <h1 class="heading-1 mb-8 text-center md:mb-12">
         {{ t("projects.title") }}
       </h1>
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 md:gap-16">
+      <div
+        class="grid grid-flow-row-dense grid-cols-1 gap-6 sm:grid-cols-3 lg:gap-16"
+      >
         <CommonProjectCard
           v-for="project in projects"
           :key="project.id"
