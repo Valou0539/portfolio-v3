@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/the-fiasco/carousel/home-hero.png",
+      "alt": {
+        "en": "The Fiasco homepage hero section",
+        "fr": "Section hero de la page d'accueil de The Fiasco"
+      }
+    },
+    {
+      "src": "/images/projects/the-fiasco/carousel/home-menu.png",
+      "alt": {
+        "en": "Menu section on homepage",
+        "fr": "Section menu sur la page d'accueil"
+      }
+    },
+    {
+      "src": "/images/projects/the-fiasco/carousel/home-chef&reservation.png",
+      "alt": {
+        "en": "Chef and reservation sections",
+        "fr": "Sections chef et réservation"
+      }
+    },
+    {
+      "src": "/images/projects/the-fiasco/carousel/home-recipes&map.png",
+      "alt": {
+        "en": "Recipes and map sections",
+        "fr": "Sections recettes et carte"
+      }
+    },
+    {
+      "src": "/images/projects/the-fiasco/carousel/recipe-hero.png",
+      "alt": {
+        "en": "Recipe page hero section",
+        "fr": "Section hero de la page recette"
+      }
+    },
+    {
+      "src": "/images/projects/the-fiasco/carousel/recipe-tutorial&similar.png",
+      "alt": {
+        "en": "Recipe tutorial and similar recipes sections",
+        "fr": "Sections tutoriel de recette et recettes similaires"
+      }
+    }
+  ]
+}

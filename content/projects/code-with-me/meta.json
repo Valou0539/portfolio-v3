@@ -1,0 +1,20 @@
+{
+  "name": "Code With Me",
+  "year": 2023,
+  "large": false,
+  "featured": false,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/code-with-me/card.png",
+      "srcMobile": "/images/projects/code-with-me/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/code-with-me/card-large.png",
+      "srcMobile": "/images/projects/code-with-me/card-mobile-large.png"
+    }
+  },
+  "website": "https://valou0539.github.io/CodeWithMe/",
+  "github": "https://github.com/Valou0539/CodeWithMe",
+  "techStack": ["tailwindcss"]
+}

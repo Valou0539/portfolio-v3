@@ -1,0 +1,16 @@
+{
+  "name": "News Homepage",
+  "year": 2023,
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/news-homepage/card.png",
+      "srcMobile": "/images/projects/news-homepage/card-mobile.png"
+    }
+  },
+  "website": "https://valou0539.github.io/news-homepage/",
+  "github": "https://github.com/Valou0539/news-homepage",
+  "techStack": ["tailwindcss"]
+}

@@ -1,0 +1,11 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/self-pass/carousel/home.png",
+      "alt": {
+        "en": "Main interface of Self-pass",
+        "fr": "Interface principale de Self-pass"
+      }
+    }
+  ]
+}

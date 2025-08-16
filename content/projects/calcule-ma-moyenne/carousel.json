@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/home.png",
+      "alt": {
+        "en": "Home page of Calcule Ma Moyenne",
+        "fr": "Page d'accueil de Calcule Ma Moyenne"
+      }
+    },
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/register.png",
+      "alt": {
+        "en": "Registration page",
+        "fr": "Page d'inscription"
+      }
+    },
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/grades.png",
+      "alt": {
+        "en": "Grades management interface",
+        "fr": "Interface de gestion des notes"
+      }
+    },
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/grades-light.png",
+      "alt": {
+        "en": "Grades interface in light mode",
+        "fr": "Interface des notes en mode clair"
+      }
+    },
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/admin.png",
+      "alt": {
+        "en": "Admin panel interface",
+        "fr": "Interface du panneau d'administration"
+      }
+    },
+    {
+      "src": "/images/projects/calcule-ma-moyenne/carousel/account.png",
+      "alt": {
+        "en": "User account page",
+        "fr": "Page de compte utilisateur"
+      }
+    }
+  ]
+}

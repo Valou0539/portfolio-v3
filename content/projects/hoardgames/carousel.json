@@ -1,0 +1,144 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/hoardgames/carousel/home.png",
+      "alt": {
+        "en": "HoardGames homepage",
+        "fr": "Page d'accueil de HoardGames"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/register.png",
+      "alt": {
+        "en": "User registration page",
+        "fr": "Page d'inscription utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/login.png",
+      "alt": {
+        "en": "User login page",
+        "fr": "Page de connexion utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/account.png",
+      "alt": {
+        "en": "User account page",
+        "fr": "Page de compte utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/profile.png",
+      "alt": {
+        "en": "User profile page",
+        "fr": "Page de profil utilisateur"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/promotions.png",
+      "alt": {
+        "en": "Promotions and offers page",
+        "fr": "Page des promotions et offres"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/game-rules.png",
+      "alt": {
+        "en": "Game rules information page",
+        "fr": "Page d'information des règles de jeux"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/help-center.png",
+      "alt": {
+        "en": "Help center page",
+        "fr": "Page du centre d'aide"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/documents.png",
+      "alt": {
+        "en": "Documents management page",
+        "fr": "Page de gestion des documents"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/identity-verification.png",
+      "alt": {
+        "en": "Identity verification page",
+        "fr": "Page de vérification d'identité"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-home.png",
+      "alt": {
+        "en": "Admin panel homepage",
+        "fr": "Page d'accueil du panneau d'administration"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-users.png",
+      "alt": {
+        "en": "Admin users management",
+        "fr": "Gestion des utilisateurs admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-user.png",
+      "alt": {
+        "en": "Admin user detail page",
+        "fr": "Page de détail utilisateur admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-roles.png",
+      "alt": {
+        "en": "Admin roles management",
+        "fr": "Gestion des rôles admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-game.png",
+      "alt": {
+        "en": "Admin game management",
+        "fr": "Gestion des jeux admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-transactions.png",
+      "alt": {
+        "en": "Admin transactions management",
+        "fr": "Gestion des transactions admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-messages.png",
+      "alt": {
+        "en": "Admin messages management",
+        "fr": "Gestion des messages admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-help.png",
+      "alt": {
+        "en": "Admin help content management",
+        "fr": "Gestion du contenu d'aide admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-help-category.png",
+      "alt": {
+        "en": "Admin help category management",
+        "fr": "Gestion des catégories d'aide admin"
+      }
+    },
+    {
+      "src": "/images/projects/hoardgames/carousel/admin-terms.png",
+      "alt": {
+        "en": "Admin terms and conditions management",
+        "fr": "Gestion des conditions générales admin"
+      }
+    }
+  ]
+}

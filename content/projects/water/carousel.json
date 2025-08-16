@@ -1,0 +1,11 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/water/carousel/home.png",
+      "alt": {
+        "en": "Main interface of Water.",
+        "fr": "Interface principale de Water."
+      }
+    }
+  ]
+}

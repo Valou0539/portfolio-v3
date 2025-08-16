@@ -1,0 +1,11 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/news-homepage/carousel/home.png",
+      "alt": {
+        "en": "Main interface of News Homepage",
+        "fr": "Interface principale de News Homepage"
+      }
+    }
+  ]
+}

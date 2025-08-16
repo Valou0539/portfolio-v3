@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/code-with-me/carousel/home-hero.png",
+      "alt": {
+        "en": "Home hero section",
+        "fr": "Section hero de la page d'accueil"
+      }
+    },
+    {
+      "src": "/images/projects/code-with-me/carousel/home-testimonials.png",
+      "alt": {
+        "en": "Home testimonials section",
+        "fr": "Section des témoignages de la page d'accueil"
+      }
+    }
+  ]
+}

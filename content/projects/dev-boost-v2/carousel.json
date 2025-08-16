@@ -1,0 +1,53 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/home-hero-light.png",
+      "alt": {
+        "en": "Dev Boost homepage hero section in light mode",
+        "fr": "Section hero de la page d'accueil Dev Boost en mode clair"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/home-hero-dark.png",
+      "alt": {
+        "en": "Dev Boost homepage hero section in dark mode",
+        "fr": "Section hero de la page d'accueil Dev Boost en mode sombre"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/home-featured-projects.png",
+      "alt": {
+        "en": "Featured projects section on homepage",
+        "fr": "Section des projets mis en avant sur la page d'accueil"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/home-products&faq.png",
+      "alt": {
+        "en": "Products and FAQ sections on homepage",
+        "fr": "Sections produits et FAQ sur la page d'accueil"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/products.png",
+      "alt": {
+        "en": "Products and services page",
+        "fr": "Page des produits et services"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/projects.png",
+      "alt": {
+        "en": "Projects portfolio page",
+        "fr": "Page du portfolio de projets"
+      }
+    },
+    {
+      "src": "/images/projects/dev-boost-v2/carousel/contact.png",
+      "alt": {
+        "en": "Contact page",
+        "fr": "Page de contact"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+- Fonctionnalité principale 1
+- Fonctionnalité principale 2
+- Fonctionnalité principale 3

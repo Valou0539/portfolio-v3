@@ -1,0 +1,20 @@
+{
+  "name": "The Fiasco",
+  "year": 2021,
+  "large": true,
+  "featured": false,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/the-fiasco/card.png",
+      "srcMobile": "/images/projects/the-fiasco/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/the-fiasco/card-large.png",
+      "srcMobile": "/images/projects/the-fiasco/card-mobile-large.png"
+    }
+  },
+  "website": "https://valou0539.github.io/The-fiasco/",
+  "github": "https://github.com/Valou0539/The-fiasco",
+  "techStack": ["tailwindcss"]
+}
