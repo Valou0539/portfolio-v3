@@ -30,13 +30,12 @@
             :class="{
               'opacity-50': index !== -1 && index !== itemsCount - 1,
             }"
-            fetch-priority-high
           />
           <PagesProjectHeroCarouselImage
             v-for="(image, i) in projectCarousel.images"
             :key="image.src"
             :image="image"
-            :fetch-priority-high="i === 0 || i === 1"
+            :fetch-priority-high="i === 0"
             :class="{
               'opacity-50': index !== i,
               '!duration-0': disabledTransition,
@@ -46,6 +45,7 @@
             v-if="itemsCount > 1"
             :image="projectCarousel.images[0]!"
             class="opacity-50"
+            fetch-priority-high
           />
         </div>
       </div>

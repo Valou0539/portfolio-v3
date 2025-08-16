@@ -9,6 +9,7 @@
       :alt="props.image.alt[$i18n.locale]"
       width="1152"
       height="648"
+      loading="lazy"
     />
   </div>
 </template>
