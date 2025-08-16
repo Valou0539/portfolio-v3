@@ -23,6 +23,7 @@
             v-if="itemsCount > 1"
             :image="projectCarousel.images.at(-2)!"
             class="opacity-50"
+            lazy
           />
           <PagesProjectHeroCarouselImage
             v-if="itemsCount > 1"
@@ -30,12 +31,14 @@
             :class="{
               'opacity-50': index !== -1 && index !== itemsCount - 1,
             }"
+            lazy
           />
           <PagesProjectHeroCarouselImage
             v-for="(image, i) in projectCarousel.images"
             :key="image.src"
             :image="image"
             :fetch-priority-high="i === 0"
+            :lazy="i !== 0"
             :class="{
               'opacity-50': index !== i,
               '!duration-0': disabledTransition,
