@@ -1,5 +1,14 @@
 import { defineContentConfig, defineCollection, z } from "@nuxt/content";
 
+const experienceSchema = z.object({
+  jobTitle: z.string(),
+  company: z.string(),
+  companyLink: z.string().optional(),
+  startDate: z.string(),
+  endDate: z.string(),
+  techStack: z.array(z.string()),
+});
+
 export default defineContentConfig({
   collections: {
     projects_content: defineCollection({
@@ -59,27 +68,35 @@ export default defineContentConfig({
         ),
       }),
     }),
-    experiences_content: defineCollection({
+    experiences_professional_content: defineCollection({
       type: "page",
       source: {
-        include: "experiences/**/*.md",
+        include: "experiences/professional/**/*.md",
         prefix: "",
       },
     }),
-    experiences_meta: defineCollection({
+    experiences_professional_meta: defineCollection({
       type: "data",
       source: {
-        include: "experiences/**/meta.json",
+        include: "experiences/professional/**/meta.json",
         prefix: "",
       },
-      schema: z.object({
-        jobTitle: z.string(),
-        company: z.string(),
-        companyLink: z.string().optional(),
-        startDate: z.string(),
-        endDate: z.string(),
-        techStack: z.array(z.string()),
-      }),
+      schema: experienceSchema,
+    }),
+    experiences_education_content: defineCollection({
+      type: "page",
+      source: {
+        include: "experiences/education/**/*.md",
+        prefix: "",
+      },
+    }),
+    experiences_education_meta: defineCollection({
+      type: "data",
+      source: {
+        include: "experiences/education/**/meta.json",
+        prefix: "",
+      },
+      schema: experienceSchema,
     }),
   },
 });

@@ -2,7 +2,8 @@
   <main>
     <PagesAboutHero />
     <PagesAboutTechnologies />
-    <PagesAboutExperiences />
+    <PagesAboutExperiences type="professional" class="pb-8 md:pb-12" />
+    <PagesAboutExperiences type="education" />
   </main>
 </template>
 <script lang="ts" setup>

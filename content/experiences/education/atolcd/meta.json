@@ -1,0 +1,20 @@
+{
+  "jobTitle": "about.experiences.job-title.but-informatique",
+  "company": "IUT de Dijon",
+  "companyLink": "https://iutdijon.u-bourgogne.fr/",
+  "startDate": "2023-09-01",
+  "endDate": "2026-08-31",
+  "techStack": [
+    "typescript",
+    "javascript",
+    "html",
+    "css",
+    "php",
+    "csharp",
+    "cplusplus",
+    "c",
+    "mysql",
+    "git",
+    "github"
+  ]
+}

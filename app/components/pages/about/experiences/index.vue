@@ -1,6 +1,12 @@
 <template>
   <section class="mx-auto max-w-5xl px-4 pt-4 md:pt-12">
-    <h2 class="heading-2 mb-8 md:mb-12">{{ $t("about.experiences.title") }}</h2>
+    <h2 class="heading-2 mb-8 md:mb-12">
+      {{
+        props.type === "professional"
+          ? $t("about.experiences.professional-title")
+          : $t("about.experiences.education-title")
+      }}
+    </h2>
     <div
       v-if="experiencesMeta"
       v-for="(experience, index) in experiencesMeta"
@@ -71,18 +77,32 @@
 
 <script lang="ts" setup>
 import { ArrowUpRightIcon } from "@heroicons/vue/24/outline";
-import type { ExperiencesMetaCollectionItem } from "@nuxt/content";
+import type {
+  ExperiencesProfessionalMetaCollectionItem,
+  ExperiencesEducationMetaCollectionItem,
+} from "@nuxt/content";
 import technologies from "~/assets/data/technologies";
 
-const { data: experiencesMeta } = await useAsyncData("experiencesMeta", () =>
-  queryCollection("experiences_meta").all(),
+type ExperienceMeta =
+  | ExperiencesProfessionalMetaCollectionItem
+  | ExperiencesEducationMetaCollectionItem;
+
+interface Props {
+  type: "professional" | "education";
+}
+
+const props = defineProps<Props>();
+
+const { data: experiencesMeta } = await useAsyncData(
+  "experiencesMeta" + props.type,
+  () => queryCollection(`experiences_${props.type}_meta`).all(),
 );
 
 const { locale } = useI18n();
 const { data: experiencesContent } = await useAsyncData(
-  "experiencesContent",
+  "experiencesContent" + props.type,
   () =>
-    queryCollection("experiences_content")
+    queryCollection(`experiences_${props.type}_content`)
       .where("stem", "LIKE", `%${locale.value}`)
       .all(),
   {
@@ -90,11 +110,11 @@ const { data: experiencesContent } = await useAsyncData(
   },
 );
 
-const getExperienceContent = (experience: ExperiencesMetaCollectionItem) =>
+const getExperienceContent = (experience: ExperienceMeta) =>
   experiencesContent.value?.find(
     (e) => e.stem.split("/")[0] === experience.stem.split("/")[0],
   );
 
-const getTechStack = (experience: ExperiencesMetaCollectionItem) =>
+const getTechStack = (experience: ExperienceMeta) =>
   experience.techStack as (keyof typeof technologies)[];
 </script>

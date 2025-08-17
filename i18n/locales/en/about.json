@@ -17,10 +17,12 @@
       "more": "... and much more!"
     },
     "experiences": {
-      "title": "Experiences",
+      "professional-title": "Experiences",
+      "education-title": "Education",
       "now": "now",
       "job-title": {
-        "web-developer": "Web developer"
+        "web-developer": "Web developer",
+        "but-informatique": "University Computer Science Bachelor"
       }
     }
   }
