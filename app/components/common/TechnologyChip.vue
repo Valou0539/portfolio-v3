@@ -1,23 +1,26 @@
 <template>
   <CommonGlassDiv
+    v-if="technologies[id]"
     :rounded="999"
     :blur-amount="3"
     :force-theme="forceTheme"
     opaque
   >
     <NuxtLink
-      :to="technologies[id].url"
+      :to="technologies[id]!.url"
       :class="['flex items-center', linkClasses]"
       target="_blank"
     >
-      <svg
-        viewBox="0 0 24 24"
-        :style="{ color: `#${technologies[id].logo.hex}` }"
+      <component
+        :is="technologies[id]!.logo"
+        :style="{
+          color: technologies[id]!.hex
+            ? `#${technologies[id]!.hex}`
+            : undefined,
+        }"
         :class="iconClasses"
-      >
-        <path fill="currentColor" :d="technologies[id].logo.path" />
-      </svg>
-      <span :class="{ 'sr-only': iconOnly }">{{ technologies[id].name }}</span>
+      />
+      <span :class="{ 'sr-only': iconOnly }">{{ technologies[id]!.name }}</span>
     </NuxtLink>
   </CommonGlassDiv>
 </template>
@@ -39,7 +42,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 const linkClasses = computed(() => ({
   "px-1.5 py-1 text-xs md:text-sm gap-1": props.size === "small",
-  "px-3 py-1.5 text-sm md:text-base gap-2 md:gap-3": props.size === "large",
+  "px-3 py-1.5 text-sm md:text-base gap-1 md:gap-2": props.size === "large",
   "!p-1": props.iconOnly && props.size === "small",
   "!p-1.5": props.iconOnly && props.size === "large",
   "text-secondary-dark": props.forceTheme === "dark",
@@ -48,6 +51,6 @@ const linkClasses = computed(() => ({
 
 const iconClasses = computed(() => ({
   "size-4": props.size === "small",
-  "size-5.5 md:size-7": props.size === "large",
+  "size-4 md:size-5": props.size === "large",
 }));
 </script>
