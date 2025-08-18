@@ -10,6 +10,7 @@
       :to="technologies[id]!.url"
       :class="['flex items-center', linkClasses]"
       target="_blank"
+      :title="technologies[id]!.name"
     >
       <component
         :is="technologies[id]!.logo"
