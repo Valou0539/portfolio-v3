@@ -72,6 +72,14 @@ body {
   scrollbar-width: thin;
 }
 
+[data-content-id] {
+  @apply leading-normal;
+
+  a {
+    @apply text-primary hover:text-primary/90 transition-colors duration-200;
+  }
+}
+
 .tech-stack a {
   @apply text-secondary hover:text-primary font-medium transition-colors duration-200;
 }
