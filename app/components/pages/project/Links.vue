@@ -1,5 +1,8 @@
 <template>
-  <section class="space-y-4">
+  <section
+    v-if="projectMeta?.website || projectMeta?.figma || projectMeta?.github"
+    class="space-y-4"
+  >
     <h2 class="sr-only">{{ $t("project.sections.links") }}</h2>
     <CommonButton
       v-if="projectMeta?.website"
