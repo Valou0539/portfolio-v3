@@ -1,5 +1,1 @@
-As the developer of this project, I was responsible for:
-
-- Design and development
-- Technical architecture
-- Implementation of key features
+As the main co-developer of this collaborative project, I took charge of the technical architecture design and user interface development. I worked closely with my colleague [Evan](https://evan-perreau.fr) to create a comprehensive solution meeting the needs of IUT students. My contribution focused on setting up the grade management interface, implementing the average calculation system with coefficients, and optimizing the user experience. I also participated in database design and integration of authentication features to ensure the security of student data.

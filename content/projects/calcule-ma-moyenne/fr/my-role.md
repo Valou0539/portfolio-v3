@@ -1,5 +1,1 @@
-En tant que développeur de ce projet, j'étais responsable de :
-
-- Conception et développement
-- Architecture technique
-- Implémentation des fonctionnalités clés
+En tant que co-développeur principal de ce projet collaboratif, j'ai pris en charge la conception du design et le développement de l'interface utilisateur. J'ai travaillé étroitement avec mon collègue [Evan](https://evan-perreau.fr) pour créer une solution complète répondant aux besoins des étudiants de l'IUT. Ma contribution s'est concentrée sur la mise en place de l'interface de gestion des notes, l'implémentation du système de calcul des moyennes avec coefficients, et l'optimisation de l'expérience utilisateur. J'ai également participé à la conception de la base de données et à l'intégration des fonctionnalités d'authentification pour assurer la sécurité des données étudiantes.

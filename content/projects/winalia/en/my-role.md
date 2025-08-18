@@ -1,5 +1,1 @@
-As the developer of this project, I was responsible for:
-
-- Design and development
-- Technical architecture
-- Implementation of key features
+In this project, I was responsible for the entire front-end of the application. I designed the interface, developed it, and deployed it for client demos. I personally developed the landing page, the login page, the registration page, and the email verification page. I also built the match display page as well as the match creation page. For each page, I used the API provided by the backend to fetch and display the data.

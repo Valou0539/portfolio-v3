@@ -1,3 +1,5 @@
-- Fonctionnalité principale 1
-- Fonctionnalité principale 2
-- Fonctionnalité principale 3
+🏠 Interface avec mode sombre et clair
+
+🔐 Système d'authentification complet
+
+🎮 Création et affichage de matchs avec filtres

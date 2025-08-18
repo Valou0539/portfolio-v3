@@ -1,3 +1,3 @@
-This is the description of Self-pass. Please update this content with the actual project description.
+Self-pass is a faithful reproduction of the Pronote mobile interface, created for strategic purposes to optimize access to the school cafeteria. The project aimed to allow my group of friends and me to gain priority at the cafeteria by simulating classes at 12:55 PM rather than 1:55 PM.
 
-Add details about what the project does, its purpose, and key features.
+The application perfectly replicates the appearance and functionality of Pronote mobile, including the display of schedules, grades, and school information. To avoid detection, the system integrates a random grade generator and offers two different schedules, allowing each user to have a unique and credible profile.

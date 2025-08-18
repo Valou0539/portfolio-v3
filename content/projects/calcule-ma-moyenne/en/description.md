@@ -1,3 +1,3 @@
-This is the description of Calcule Ma Moyenne. Please update this content with the actual project description.
+Calcule Ma Moyenne is a web application developed to address a concrete need encountered at the IUT: the inability to easily check one's overall grade average. Faced with this limitation of the university system, I collaborated with a friend and fellow developer to create a practical and intuitive solution.
 
-Add details about what the project does, its purpose, and key features.
+The application allows students to input their grades and coefficients to automatically calculate their average. It offers a modern and responsive interface, with a secure authentication system and an admin panel for subject management. The project also includes a dark/light mode to enhance the user experience according to individual preferences.

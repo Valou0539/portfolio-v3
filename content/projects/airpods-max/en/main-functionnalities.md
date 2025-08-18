@@ -1,7 +1,5 @@
-✏️ Lorem ipsum dolor sit amet
+🎨 Modern design with fluid animations
 
-🧠 Lorem ipsum dolor sit amet
+📱 Responsive and optimized interface
 
-🔒 Lorem ipsum dolor sit amet
-
-📊 Lorem ipsum dolor sit amet
+🍎 Reproduces the product page navigation of Apple

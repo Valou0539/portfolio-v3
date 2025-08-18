@@ -1,7 +1,5 @@
-✏️ Lorem ipsum dolor sit amet
+🎨 Design moderne avec des animation fluides
 
-🧠 Lorem ipsum dolor sit amet
+📱 Interface responsive et optimisée
 
-🔒 Lorem ipsum dolor sit amet
-
-📊 Lorem ipsum dolor sit amet
+🍎 Reprend la navigation de la page produit d'Apple

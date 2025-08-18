@@ -1,3 +1,1 @@
-Ceci est la description de Water.. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Water. est un projet de page d'accueil pour une destination de vacances que j'ai réalisé en août 2021 durant ma formation en développement web. Ce projet s'inspire d'un exemple trouvé sur YouTube et présente une interface moderne et épurée mettant en valeur des paysages aquatiques magnifiques avec des plages paradisiaques. L'objectif était de créer une landing page attrayante pour promouvoir une destination touristique, en me concentrant sur l'apprentissage des techniques de mise en page responsive et des effets visuels. Ce projet m'a permis de mettre en pratique mes compétences naissantes en développement web.

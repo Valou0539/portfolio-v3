@@ -1,3 +1,3 @@
-This is the description of The Fiasco. Please update this content with the actual project description.
+The Fiasco is a web integration project completed as part of my training on [Grafikart](https://grafikart.fr). The objective was to integrate a pre-designed mockup to create a complete restaurant website. This project allowed me to practice my front-end development skills by working from an existing design.
 
-Add details about what the project does, its purpose, and key features.
+I developed this site independently, then watched the correction videos to verify and improve my work. The site presents a fictional restaurant with a modern and responsive interface, including sections for the menu, recipes, chef information, and a reservation system. The integration includes JavaScript animations and smooth navigation to provide an optimal user experience.

@@ -1,3 +1,1 @@
-This is the description of Water.. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+Water. is a vacation destination homepage project that I created in August 2021 during my web development training. This project is inspired by an example found on YouTube and features a modern, clean interface showcasing beautiful aquatic landscapes with paradisiacal beaches. The goal was to create an attractive landing page to promote a tourist destination, focusing on learning responsive layout techniques and visual effects. This project allowed me to practice my emerging skills in web development.

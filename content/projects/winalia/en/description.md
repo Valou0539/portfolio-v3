@@ -1,3 +1,1 @@
-This is the description of Winalia. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+Winalia is a betting web application on video game matches. It allows users to create, organize and track matches. I developed the front-end part of this application in collaboration with a colleague who handled the backend. This project will serve as a base for my future boilerplate, especially for the robust authentication system with refresh token management.

@@ -1,3 +1,3 @@
-Ceci est la description de Calcule Ma Moyenne. Veuillez mettre à jour ce contenu avec la description réelle du projet.
+Calcule Ma Moyenne est une application web développée pour répondre à un besoin concret rencontré à l'IUT : l'impossibilité de consulter facilement sa moyenne générale. Face à cette limitation du système universitaire, j'ai collaboré avec un ami et collègue développeur pour créer une solution pratique et intuitive.
 
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+L'application permet aux étudiants de saisir leurs notes et coefficients pour calculer automatiquement leur moyenne. Elle offre une interface moderne et responsive, avec un système d'authentification sécurisé et un panneau d'administration pour la gestion des matières. Le projet inclut également un mode sombre/clair pour améliorer l'expérience utilisateur selon les préférences de chacun.

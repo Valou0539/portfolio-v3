@@ -1,3 +1,13 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+📝 Grade input and management by subject
+
+🧮 Automatic overall average calculation
+
+⚖️ Coefficient and weighting management
+
+🔐 Secure authentication system
+
+🌓 Dark and light mode
+
+👨‍💼 Admin panel for subject and semester management
+
+📱 Responsive interface adapted to all devices

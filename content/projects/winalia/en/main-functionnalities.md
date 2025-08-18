@@ -1,3 +1,5 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+🏠 Interface with dark and light mode
+
+🔐 Complete authentication system
+
+🎮 Match creation and display with filters

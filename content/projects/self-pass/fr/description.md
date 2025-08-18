@@ -1,3 +1,3 @@
-Ceci est la description de Self-pass. Veuillez mettre à jour ce contenu avec la description réelle du projet.
+Self-pass est une reproduction fidèle de l'interface mobile de Pronote, créée dans un but stratégique pour optimiser l'accès à la cantine scolaire. Le projet avait pour objectif de permettre à mon groupe d'amis et moi d'obtenir la priorité à la cantine en simulant des cours à 12h55 plutôt qu'à 13h55.
 
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+L'application reproduit parfaitement l'apparence et les fonctionnalités de Pronote mobile, incluant l'affichage des emplois du temps, des notes et des informations scolaires. Pour éviter la détection, le système intègre un générateur aléatoire de notes et propose deux emplois du temps différents, permettant à chaque utilisateur d'avoir un profil unique et crédible.

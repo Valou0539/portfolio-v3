@@ -1,3 +1,1 @@
-Ceci est la description de Winalia. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Winalia est une application web de pari sur des matchs de jeux vidéo. Elle permet aux utilisateurs de créer, organiser et suivre des matchs. J'ai développé la partie front-end de cette application en collaboration avec un collègue qui s'occupait du backend. Ce projet me servira de base pour ma future boilerplate, notamment le système d'authentification robuste avec gestion des refresh tokens et la gestion du thème de couleur.

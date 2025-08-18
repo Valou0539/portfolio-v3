@@ -193,23 +193,23 @@ const technologies: Record<
     url: "https://nodejs.org",
     showInAbout: true,
   },
+  csharp: {
+    name: "C#",
+    logo: CSharpIcon,
+    url: "https://csharp.net",
+    showInAbout: true,
+  },
   java: {
     name: "Java",
     logo: JavaIcon,
     url: "https://java.com",
-    showInAbout: false,
+    showInAbout: true,
   },
   springboot: {
     name: "Spring Boot",
     logo: SpringBootIcon,
     hex: siSpringboot.hex,
     url: "https://spring.io/projects/spring-boot",
-    showInAbout: false,
-  },
-  csharp: {
-    name: "C#",
-    logo: CSharpIcon,
-    url: "https://csharp.net",
     showInAbout: false,
   },
   postgresql: {

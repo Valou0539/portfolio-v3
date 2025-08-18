@@ -1,5 +1,1 @@
-En tant que développeur de ce projet, j'étais responsable de :
-
-- Conception et développement
-- Architecture technique
-- Implémentation des fonctionnalités clés
+Dans ce projet je me suis chargé de toute la partie front-end de l'application. J'ai imaginé l'interface, l'ai développée et l'ai mise en ligne pour les démos client. J'ai personnelement développé la landing page, la page de connexion, d'inscription et de vérification de l'email. J'ai également réalisé la page d'affichage des matchs ainsi que la page de création de match. Pour chaque page, j'ai utilisé l'api fournie par le backend pour récupérer les données et les afficher.
