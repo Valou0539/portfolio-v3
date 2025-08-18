@@ -1,6 +1,6 @@
 {
   "name": "Cybercave",
-  "year": 2023,
+  "date": "2023-08",
   "large": true,
   "featured": true,
   "cardTheme": "dark",
@@ -15,11 +15,5 @@
     }
   },
   "figma": "https://www.figma.com/design/JSpIlI0li4IIhiKvkt17YB/Cyber-Cave?m=auto&t=me4Voq8Sfb1mzlpl-6",
-  "techStack": [
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss"
-  ]
+  "techStack": ["nuxt", "vuejs", "tailwindcss", "javascript", "prisma", "figma"]
 }

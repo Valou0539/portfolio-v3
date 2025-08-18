@@ -1,6 +1,6 @@
 {
   "name": "Wantag",
-  "year": 2024,
+  "date": "2024-08",
   "large": true,
   "featured": true,
   "cardTheme": "light",
@@ -15,5 +15,13 @@
     }
   },
   "website": "https://wantag.com",
-  "techStack": ["tailwindcss", "tailwindcss", "tailwindcss", "tailwindcss"]
+  "techStack": [
+    "vuejs",
+    "primevue",
+    "tailwindcss",
+    "typescript",
+    "inertia",
+    "laravel",
+    "php"
+  ]
 }

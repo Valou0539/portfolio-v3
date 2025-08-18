@@ -1,6 +1,6 @@
 {
   "name": "Code With Me",
-  "year": 2023,
+  "date": "2023-10",
   "large": false,
   "featured": false,
   "cardTheme": "dark",
@@ -16,5 +16,5 @@
   },
   "website": "https://valou0539.github.io/CodeWithMe/",
   "github": "https://github.com/Valou0539/CodeWithMe",
-  "techStack": ["tailwindcss"]
+  "techStack": ["html", "css", "javascript", "figma"]
 }

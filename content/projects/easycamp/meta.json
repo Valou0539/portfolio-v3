@@ -1,6 +1,6 @@
 {
   "name": "EasyCamp",
-  "year": 2023,
+  "date": "2023-10",
   "large": false,
   "featured": false,
   "cardTheme": "dark",
@@ -11,5 +11,5 @@
     }
   },
   "figma": "https://www.figma.com/file/wHdQOENIZhFzax9Vlw1AJR/Untitled?type=design&node-id=8%3A168&mode=design&t=phb661LEDIsnK8gt-1",
-  "techStack": ["tailwindcss"]
+  "techStack": ["figma"]
 }

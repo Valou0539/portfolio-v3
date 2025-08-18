@@ -1,0 +1,53 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/winalia/carousel/home-dark.png",
+      "alt": {
+        "en": "Home page in dark mode",
+        "fr": "Page d'accueil en mode sombre"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/home-light.png",
+      "alt": {
+        "en": "Home page in light mode",
+        "fr": "Page d'accueil en mode clair"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/login.png",
+      "alt": {
+        "en": "Login page",
+        "fr": "Page de connexion"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/register.png",
+      "alt": {
+        "en": "Registration page",
+        "fr": "Page d'inscription"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/matches.png",
+      "alt": {
+        "en": "Matches list view",
+        "fr": "Vue de la liste des matchs"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/matches-filters-open.png",
+      "alt": {
+        "en": "Matches with filters panel open",
+        "fr": "Matchs avec le panneau de filtres ouvert"
+      }
+    },
+    {
+      "src": "/images/projects/winalia/carousel/matches-create.png",
+      "alt": {
+        "en": "Create new match interface",
+        "fr": "Interface de création d'un nouveau match"
+      }
+    }
+  ]
+}

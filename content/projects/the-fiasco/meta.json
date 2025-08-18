@@ -1,6 +1,6 @@
 {
   "name": "The Fiasco",
-  "year": 2021,
+  "date": "2021-07",
   "large": true,
   "featured": false,
   "cardTheme": "dark",
@@ -16,5 +16,5 @@
   },
   "website": "https://valou0539.github.io/The-fiasco/",
   "github": "https://github.com/Valou0539/The-fiasco",
-  "techStack": ["tailwindcss"]
+  "techStack": ["html", "css", "javascript", "jquery"]
 }

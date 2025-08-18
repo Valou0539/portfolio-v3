@@ -1,6 +1,6 @@
 {
   "name": "Self-pass",
-  "year": 2021,
+  "date": "2021-10",
   "large": false,
   "featured": false,
   "cardTheme": "light",
@@ -12,5 +12,5 @@
   },
   "website": "https://valou0539.github.io/self_pass/",
   "github": "https://github.com/Valou0539/self_pass",
-  "techStack": ["tailwindcss"]
+  "techStack": ["html", "css", "javascript"]
 }

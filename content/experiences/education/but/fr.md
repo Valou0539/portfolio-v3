@@ -1,0 +1,1 @@
+Durant mes études supérieures, je développe et maintiens des applications web dans le cadre de projets universitaires, conçois et manipule des bases de données relationnelles, collabore en équipe sur des projets longs avec Git, et mets en œuvre des algorithmes ainsi que des tests pour assurer la fiabilité des applications.

@@ -1,6 +1,6 @@
 {
   "name": "Airpods Max Concept",
-  "year": 2024,
+  "date": "2024-02",
   "large": false,
   "featured": false,
   "cardTheme": "light",
@@ -12,11 +12,5 @@
   },
   "website": "https://airpods-max.valentin-gindre.fr",
   "github": "https://github.com/Valou0539/AirPodsMax_Concept",
-  "techStack": [
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss"
-  ]
+  "techStack": ["html", "sass", "javascript", "figma"]
 }

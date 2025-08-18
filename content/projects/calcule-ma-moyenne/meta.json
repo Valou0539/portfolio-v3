@@ -1,6 +1,6 @@
 {
   "name": "Calcule Ma Moyenne",
-  "year": 2023,
+  "date": "2023-11",
   "large": false,
   "featured": false,
   "cardTheme": "dark",
@@ -14,8 +14,14 @@
       "srcMobile": "/images/projects/calcule-ma-moyenne/card-mobile-large.png"
     }
   },
-  "website": "",
-  "figma": "",
-  "github": "",
-  "techStack": ["tailwindcss"]
+  "website": "https://moyenne.dev-boost.fr",
+  "github": "https://github.com/Valou0539/CalculeMaMoyenne",
+  "techStack": [
+    "nuxt",
+    "vuejs",
+    "tailwindcss",
+    "typescript",
+    "prisma",
+    "sqlite"
+  ]
 }

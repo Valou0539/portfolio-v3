@@ -1,0 +1,22 @@
+{
+  "name": "Winalia",
+  "date": "2025-02",
+  "large": false,
+  "featured": false,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/winalia/card.png",
+      "srcMobile": "/images/projects/winalia/card-mobile.png"
+    }
+  },
+  "techStack": [
+    "nuxt",
+    "vuejs",
+    "primevue",
+    "tailwindcss",
+    "typescript",
+    "laravel",
+    "php"
+  ]
+}

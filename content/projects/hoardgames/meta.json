@@ -1,6 +1,6 @@
 {
   "name": "HoardGames",
-  "year": 2024,
+  "date": "2024-04",
   "large": true,
   "featured": false,
   "cardTheme": "dark",
@@ -15,5 +15,12 @@
     }
   },
   "figma": "https://www.figma.com/design/6KRfe5infT1Am66mTsJmvf/HoardGames?node-id=1-1219&t=9uS2mzoKq3vEbFoQ-1",
-  "techStack": ["tailwindcss"]
+  "techStack": [
+    "nuxt",
+    "vuejs",
+    "tailwindcss",
+    "typescript",
+    "adonisjs",
+    "postgresql"
+  ]
 }

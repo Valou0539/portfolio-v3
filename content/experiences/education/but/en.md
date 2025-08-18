@@ -1,0 +1,1 @@
+During my university studies, I develop and maintain web applications as part of academic projects, design and manage relational databases, collaborate in teams on long-term projects using Git, and implement algorithms and tests to ensure application reliability.

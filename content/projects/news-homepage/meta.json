@@ -1,6 +1,6 @@
 {
   "name": "News Homepage",
-  "year": 2023,
+  "date": "2023-09",
   "large": false,
   "featured": false,
   "cardTheme": "light",
@@ -12,5 +12,5 @@
   },
   "website": "https://valou0539.github.io/news-homepage/",
   "github": "https://github.com/Valou0539/news-homepage",
-  "techStack": ["tailwindcss"]
+  "techStack": ["html", "css", "javascript"]
 }

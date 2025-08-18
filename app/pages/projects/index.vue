@@ -5,7 +5,7 @@
         {{ t("projects.title") }}
       </h1>
       <div
-        class="grid grid-flow-row-dense grid-cols-1 gap-6 sm:grid-cols-3 lg:gap-16"
+        class="grid grid-cols-1 gap-6 sm:auto-rows-fr sm:grid-cols-3 lg:gap-16"
       >
         <CommonProjectCard
           v-for="project in projects"

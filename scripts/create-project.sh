@@ -40,7 +40,7 @@ done
 cat > "$CONTENT_DIR/meta.json" << EOF
 {
   "name": "$PROJECT_NAME",
-  "year": $(date +%Y),
+  "date": "$(date +%Y-%m)",
   "large": false,
   "featured": false,
   "cardTheme": "light",

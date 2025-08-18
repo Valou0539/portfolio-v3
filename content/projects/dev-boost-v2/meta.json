@@ -1,6 +1,6 @@
 {
   "name": "Dev Boost v2",
-  "year": 2023,
+  "date": "2023-07",
   "large": false,
   "featured": false,
   "cardTheme": "light",
@@ -11,5 +11,5 @@
     }
   },
   "website": "https://www.dev-boost.fr",
-  "techStack": ["tailwindcss"]
+  "techStack": ["nuxt", "vuejs", "tailwindcss", "javascript", "figma"]
 }

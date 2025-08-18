@@ -26,7 +26,7 @@ export default defineContentConfig({
       },
       schema: z.object({
         name: z.string(),
-        year: z.number(),
+        date: z.string(),
         large: z.boolean().optional(),
         featured: z.boolean().optional(),
         cardTheme: z.enum(["light", "dark"]),

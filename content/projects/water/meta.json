@@ -1,6 +1,6 @@
 {
   "name": "Water.",
-  "year": 2021,
+  "date": "2021-08",
   "large": false,
   "featured": false,
   "cardTheme": "dark",
@@ -12,5 +12,5 @@
   },
   "website": "https://valou0539.github.io/water/water_com/home.html",
   "github": "https://github.com/Valou0539/water",
-  "techStack": ["tailwindcss"]
+  "techStack": ["html", "css", "javascript"]
 }

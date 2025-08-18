@@ -1,6 +1,6 @@
 {
   "name": "Purstream",
-  "year": 2025,
+  "date": "2025-06",
   "large": true,
   "featured": true,
   "cardTheme": "dark",
@@ -15,5 +15,5 @@
     }
   },
   "website": "https://purstream.to",
-  "techStack": ["tailwindcss", "tailwindcss", "tailwindcss", "tailwindcss"]
+  "techStack": ["react", "tailwindcss", "typescript", "laravel", "php"]
 }

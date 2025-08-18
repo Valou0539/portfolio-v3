@@ -4,10 +4,19 @@
   "startDate": "2023-07-01",
   "endDate": "now",
   "techStack": [
+    "nuxt",
+    "vuejs",
+    "react",
+    "laravel",
     "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss"
+    "typescript",
+    "javascript",
+    "html",
+    "css",
+    "php",
+    "git",
+    "github",
+    "windsurf",
+    "figma"
   ]
 }

@@ -5,10 +5,15 @@
   "startDate": "2024-08-05",
   "endDate": "now",
   "techStack": [
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss",
-    "tailwindcss"
+    "angular",
+    "scss",
+    "java",
+    "springboot",
+    "git",
+    "gerrit",
+    "windsurf",
+    "jenkins",
+    "redmine",
+    "nexus"
   ]
 }
