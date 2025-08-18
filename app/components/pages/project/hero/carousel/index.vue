@@ -1,7 +1,7 @@
 <template>
-  <div class="relative flex aspect-[16/9] justify-center sm:mx-4">
+  <div class="relative flex aspect-video justify-center sm:mx-4">
     <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
-      <div class="relative aspect-[16/9] w-[calc(1/3*100%)]">
+      <div class="relative aspect-video w-[calc(1/3*100%)]">
         <div
           :class="[
             'flex',
