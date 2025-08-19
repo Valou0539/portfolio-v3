@@ -24,7 +24,7 @@ export const useAnimationOnLoad = () => {
     const { msDuration = 500, transform = "translateY(-20px)" } = options || {};
 
     return {
-      opacity: mounted.value ? 1 : 0,
+      opacity: mounted.value ? undefined : 0,
       transform: mounted.value || !transform ? undefined : transform,
       transitionProperty: "opacity, transform",
       transitionDuration: `${msDuration}ms`,
