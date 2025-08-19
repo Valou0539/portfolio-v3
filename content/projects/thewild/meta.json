@@ -6,12 +6,12 @@
   "cardTheme": "dark",
   "cardImages": {
     "default": {
-      "src": "/images/projects/thewild-concept/card.png",
-      "srcMobile": "/images/projects/thewild-concept/card-mobile.png"
+      "src": "/images/projects/thewild/card.png",
+      "srcMobile": "/images/projects/thewild/card-mobile.png"
     },
     "large": {
-      "src": "/images/projects/thewild-concept/card-large.png",
-      "srcMobile": "/images/projects/thewild-concept/card-mobile-large.png"
+      "src": "/images/projects/thewild/card-large.png",
+      "srcMobile": "/images/projects/thewild/card-mobile-large.png"
     }
   },
   "website": "https://thewild.valentin-gindre.fr",
