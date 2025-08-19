@@ -1,6 +1,6 @@
 <template>
   <NuxtLoadingIndicator color="var(--color-primary)" />
-  <Html :lang="locale">
+  <Html :lang="$i18n.locale">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -10,5 +10,4 @@
 useHead({
   titleTemplate: `%s - Valentin Gindre`,
 });
-const { locale } = useI18n();
 </script>

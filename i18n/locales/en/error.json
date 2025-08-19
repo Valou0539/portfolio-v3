@@ -1,0 +1,11 @@
+{
+  "error": {
+    "title": "Oops!",
+    "default": "Something went wrong",
+    "not-found": "The page you're looking for doesn't exist or has been moved.",
+    "project-not-found": "The project you're looking for doesn't exist or has been moved.",
+    "back-home": "Back to Home",
+    "back-to-projects": "Back to Projects",
+    "go-back": "Go Back"
+  }
+}

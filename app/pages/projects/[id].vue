@@ -59,7 +59,13 @@ const [{ data: projectMeta }, { data: projectCarousel }, { data: project }] =
   ]);
 
 if (!projectMeta.value || !project.value?.description) {
-  throw createError({ statusCode: 404, statusMessage: "Project not found" });
+  throw createError({
+    statusCode: 404,
+    statusMessage: "error.project-not-found",
+    data: {
+      isProjectNotFound: true,
+    },
+  });
 }
 
 useSeoMeta({

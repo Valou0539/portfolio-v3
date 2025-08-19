@@ -1,0 +1,11 @@
+{
+  "error": {
+    "title": "Oups !",
+    "default": "Une erreur s'est produite",
+    "not-found": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "project-not-found": "Le projet que vous recherchez n'existe pas ou a été déplacé.",
+    "back-home": "Retour à l'accueil",
+    "back-to-projects": "Retour aux projets",
+    "go-back": "Retour"
+  }
+}
