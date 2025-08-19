@@ -8,6 +8,7 @@
       v-if="projectMeta?.website"
       :href="projectMeta.website"
       target="_blank"
+      :style="style(400)"
     >
       {{ $t("project.website") }}
       <ArrowTopRightOnSquareIcon class="size-4.5 md:size-5" />
@@ -16,6 +17,7 @@
       v-if="projectMeta?.figma"
       :href="projectMeta.figma"
       target="_blank"
+      :style="style(400 + websiteDelay)"
     >
       {{ $t("project.figma") }}
       <ArrowTopRightOnSquareIcon class="size-4.5 md:size-5" />
@@ -24,6 +26,7 @@
       v-if="projectMeta?.github"
       :href="projectMeta.github"
       target="_blank"
+      :style="style(400 + websiteDelay + figmaDelay)"
       outline
     >
       <svg viewBox="0 0 24 24" class="size-4.5 md:size-5">
@@ -43,5 +46,15 @@ interface Props {
   projectMeta?: ProjectsMetaCollectionItem;
 }
 
-defineProps<Props>();
+const props = defineProps<Props>();
+
+const { style } = useAnimationOnLoad();
+
+const websiteDelay = computed(() => {
+  return props.projectMeta?.website ? 100 : 0;
+});
+
+const figmaDelay = computed(() => {
+  return props.projectMeta?.website || props.projectMeta?.figma ? 100 : 0;
+});
 </script>

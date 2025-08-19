@@ -4,6 +4,7 @@
     class="grid gap-3 sm:grid-cols-2 sm:gap-y-4 md:gap-x-12"
   >
     <CommonInputLabel
+      :style="style(300)"
       v-model="form.firstname"
       :label="$t('contact.form.firstname.label')"
       type="text"
@@ -12,6 +13,7 @@
       :error="errors.firstname"
     />
     <CommonInputLabel
+      :style="style(400)"
       v-model="form.lastname"
       :label="$t('contact.form.lastname.label')"
       type="text"
@@ -20,6 +22,7 @@
       :error="errors.lastname"
     />
     <CommonInputLabel
+      :style="style(500)"
       v-model="form.email"
       :label="$t('contact.form.email.label')"
       type="text"
@@ -29,6 +32,7 @@
       :error="errors.email"
     />
     <CommonInputLabel
+      :style="style(600)"
       v-model="form.subject"
       :label="$t('contact.form.subject.label')"
       type="text"
@@ -37,6 +41,7 @@
       :error="errors.subject"
     />
     <CommonInputLabel
+      :style="style(700)"
       v-model="form.message"
       :label="$t('contact.form.message.label')"
       type="text"
@@ -46,70 +51,16 @@
       inputClass="h-52 resize-none"
       :error="errors.message"
     />
-    <CommonButton
-      :class="[
-        {
-          '!bg-green-700 dark:!bg-green-500': recentlySentStatus === 'success',
-          '!bg-red-700 dark:!bg-red-500': recentlySentStatus === 'error',
-        },
-        'mt-6 overflow-hidden transition-colors duration-300 sm:col-span-2 md:mt-8',
-      ]"
-      type="submit"
-      :disabled="isLoading"
-    >
-      <component
-        :is="statusIcon"
-        :class="[
-          {
-            'animate-spin': isLoading,
-          },
-          isLoading || recentlySentStatus ? 'size-4.5 md:size-5' : 'size-0',
-          'transition-all duration-300',
-        ]"
-      />
-      {{ $t(buttonLabel) }}
-      <PaperAirplaneIcon
-        :class="[
-          {
-            'translate-x-72 sm:translate-x-96': isLoading || recentlySentStatus,
-          },
-          'size-4.5 transition-transform duration-300 md:size-5',
-        ]"
-      />
-    </CommonButton>
+    <PagesContactSubmitButton
+      :style="style(800)"
+      :isLoading="isLoading"
+      :recentlySentStatus="recentlySentStatus"
+    />
   </form>
 </template>
 <script lang="ts" setup>
-import {
-  ArrowPathIcon,
-  CheckIcon,
-  PaperAirplaneIcon,
-  XMarkIcon,
-} from "@heroicons/vue/24/outline";
-
 const { form, errors, isLoading, recentlySentStatus, submitForm } =
   useContactForm();
 
-const buttonLabel = computed(() => {
-  if (isLoading.value) {
-    return "contact.form.button.loading";
-  }
-  if (recentlySentStatus.value === "success") {
-    return "contact.form.button.success";
-  }
-  if (recentlySentStatus.value === "error") {
-    return "contact.form.button.error";
-  }
-  return "contact.form.button.default";
-});
-
-const statusIcon = computed(() => {
-  if (recentlySentStatus.value === "success") {
-    return CheckIcon;
-  }
-  if (recentlySentStatus.value === "error") {
-    return XMarkIcon;
-  }
-  return ArrowPathIcon;
-});
+const { style } = useAnimationOnLoad();
 </script>

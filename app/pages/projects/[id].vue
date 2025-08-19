@@ -8,32 +8,46 @@
       class="mx-auto max-w-lg px-4 md:max-w-xl lg:flex lg:max-w-5xl lg:items-start lg:gap-12"
     >
       <div class="space-y-8 md:space-y-12">
-        <PagesProjectDescription :project-description="project.description!" />
+        <PagesProjectDescription
+          :style="style(300)"
+          :project-description="project.description!"
+        />
         <PagesProjectLinks :project-meta="projectMeta" class="lg:hidden" />
         <PagesProjectMainFunctionalities
           v-if="project.mainFunctionnalities"
+          :style="style(700)"
           :project-main-functionalities="project.mainFunctionnalities"
         />
         <PagesProjectMyRole
           v-if="project.myRole"
+          :style="style(800)"
           :project-my-role="project.myRole"
         />
         <PagesProjectTechnologies
           :project-meta="projectMeta"
+          :style="style(900)"
           class="lg:hidden"
         />
       </div>
       <div class="w-91 hidden flex-shrink-0 space-y-12 lg:block">
         <PagesProjectLinks :project-meta="projectMeta" />
-        <PagesProjectTechnologies :project-meta="projectMeta" />
+        <PagesProjectTechnologies
+          :project-meta="projectMeta"
+          :style="style(700)"
+        />
       </div>
     </div>
-    <PagesProjectOtherProjects :project-meta="projectMeta" />
+    <PagesProjectOtherProjects
+      :project-meta="projectMeta"
+      :style="style(1000)"
+    />
   </main>
 </template>
 <script lang="ts" setup>
 const route = useRoute();
 const projectId = route.params.id as string;
+
+const { style } = useAnimationOnLoad();
 
 const { projectMetaPromise, projectCarouselPromise, projectPromise } =
   useProject(projectId);

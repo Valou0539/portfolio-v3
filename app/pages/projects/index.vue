@@ -1,16 +1,17 @@
 <template>
   <main>
     <section class="mx-auto mt-20 max-w-sm px-4 sm:max-w-5xl md:mt-28">
-      <h1 class="heading-1 mb-8 text-center md:mb-12">
+      <h1 :style="style(0)" class="heading-1 mb-8 text-center md:mb-12">
         {{ t("projects.title") }}
       </h1>
       <div
         class="grid grid-cols-1 gap-6 sm:auto-rows-fr sm:grid-cols-3 lg:gap-16"
       >
         <CommonProjectCard
-          v-for="project in projects"
+          v-for="(project, index) in projects"
           :key="project.id"
           :project="project"
+          :style="style(index * 100 + 200)"
         />
       </div>
     </section>
@@ -25,4 +26,5 @@ useSeoMeta({
 });
 
 const { data: projects } = await useProjects();
+const { style } = useAnimationOnLoad();
 </script>

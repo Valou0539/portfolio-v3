@@ -2,8 +2,8 @@
   <main>
     <PagesHomeHero />
     <PagesHomeWhatIDo />
-    <PagesHomeFeaturedProjects />
-    <PagesHomeCTA />
+    <PagesHomeFeaturedProjects :style="style(1000)" />
+    <PagesHomeCTA :style="style(1200)" />
   </main>
 </template>
 <script lang="ts" setup>
@@ -13,4 +13,6 @@ useSeoMeta({
   title: t("home.seo.title"),
   description: t("home.seo.description"),
 });
+
+const { style } = useAnimationOnLoad();
 </script>

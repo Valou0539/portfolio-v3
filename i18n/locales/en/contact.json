@@ -9,23 +9,28 @@
     "form": {
       "firstname": {
         "label": "First name",
-        "placeholder": "Your first name"
+        "placeholder": "Your first name",
+        "error": "First name too short"
       },
       "lastname": {
         "label": "Last name",
-        "placeholder": "Your last name"
+        "placeholder": "Your last name",
+        "error": "Last name too short"
       },
       "email": {
         "label": "Email",
-        "placeholder": "Your email"
+        "placeholder": "Your email",
+        "error": "Invalid email"
       },
       "subject": {
         "label": "Subject",
-        "placeholder": "Your subject"
+        "placeholder": "Your subject",
+        "error": "Subject too short"
       },
       "message": {
         "label": "Message",
-        "placeholder": "Your message"
+        "placeholder": "Your message",
+        "error": "Message too short"
       },
       "button": {
         "default": "Send",
