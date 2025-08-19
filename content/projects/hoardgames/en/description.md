@@ -1,3 +1,1 @@
-This is the description of HoardGames. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+Hoardgames is a gambling website based on board games that have entered the public domain. It includes presentation pages about the concept, informational pages such as game rules or a help center, as well as all user account pages, including registration, login, profile, and the submission of proof of age and address documents. The admin panel allows administrators to manage users, validate their documents, assign roles, and modify their permissions.

@@ -1,7 +1,7 @@
-✏️ Lorem ipsum dolor sit amet
+🎨 A landing page aesthetic and responsive
 
-🧠 Lorem ipsum dolor sit amet
+🛍️ A page of products with the possibility to reserve them
 
-🔒 Lorem ipsum dolor sit amet
+💬 A forum with the possibility to create topics and react
 
-📊 Lorem ipsum dolor sit amet
+⚙️ An admin-panel to manage users, reservations and products

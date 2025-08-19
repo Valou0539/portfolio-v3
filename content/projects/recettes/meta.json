@@ -10,7 +10,7 @@
       "srcMobile": "/images/projects/recettes/card-mobile.png"
     }
   },
-  "figma": "https://www.figma.com/file/EKknlVZIGMjs6Rxot5QtGG/Recettes?type=design&node-id=0%3A1&mode=design&t=RRtejfwQi3dEvXOZ-1",
+  "figma": "https://www.figma.com/file/EKknlVZIGMjs6Rxot5QtGG/Recettes",
   "github": "https://github.com/Valou0539/recettes",
-  "techStack": ["tailwindcss"]
+  "techStack": ["nuxt", "vuejs", "tailwindcss", "javascript", "figma"]
 }

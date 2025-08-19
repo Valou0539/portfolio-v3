@@ -1,7 +1,11 @@
-✏️ Lorem ipsum dolor sit amet
+📧 Login and registration via email with profile picture
 
-🧠 Lorem ipsum dolor sit amet
+🎬 Informations about the contents by [TMDB](https://www.themoviedb.org/)
 
-🔒 Lorem ipsum dolor sit amet
+🎥 Add multi-sources in the player
 
-📊 Lorem ipsum dolor sit amet
+💎 Add premium features (download, IPTV, etc.)
+
+📱 Set a maximum number of devices per subscription
+
+🛠️ Fix many bugs

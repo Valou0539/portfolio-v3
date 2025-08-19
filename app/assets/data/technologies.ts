@@ -108,7 +108,7 @@ const technologies: Record<
     name: "Sass/SCSS",
     logo: SassIcon,
     hex: siSass.hex,
-    url: "https://scss-lang.org",
+    url: "https://sass-lang.com/",
     showInAbout: true,
   },
   primevue: {
@@ -129,21 +129,21 @@ const technologies: Record<
     name: "JavaScript",
     logo: JavaScriptIcon,
     hex: siJavascript.hex,
-    url: "https://javascript.com",
+    url: "https://developer.mozilla.org/docs/Web/JavaScript",
     showInAbout: true,
   },
   html: {
     name: "HTML",
     logo: Html5Icon,
     hex: siHtml5.hex,
-    url: "https://html.com",
+    url: "https://developer.mozilla.org/docs/Web/HTML",
     showInAbout: true,
   },
   css: {
     name: "CSS",
     logo: CssIcon,
     hex: siCss.hex,
-    url: "https://css.com",
+    url: "https://developer.mozilla.org/docs/Web/CSS",
     showInAbout: true,
   },
   git: {
@@ -236,7 +236,7 @@ const technologies: Record<
   windsurf: {
     name: "Windsurf",
     logo: WindsurfIcon,
-    url: "https://windsurf.io",
+    url: "https://windsurf.com/editor",
     showInAbout: true,
   },
   jetbrains: {
@@ -249,7 +249,7 @@ const technologies: Record<
     name: "Redmine",
     logo: RedmineIcon,
     hex: siRedmine.hex,
-    url: "https://redmine.org",
+    url: "https://www.redmine.org/",
     showInAbout: false,
   },
   jenkins: {

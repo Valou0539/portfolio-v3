@@ -22,6 +22,7 @@
     "tailwindcss",
     "typescript",
     "prisma",
-    "sqlite"
+    "sqlite",
+    "figma"
   ]
 }

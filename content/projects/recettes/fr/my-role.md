@@ -1,5 +1,1 @@
-En tant que développeur de ce projet, j'étais responsable de :
-
-- Conception et développement
-- Architecture technique
-- Implémentation des fonctionnalités clés
+Dans ce projet, après avoir réalisé le design de l'application. J'ai développé la partie front-end qui comprend l'intégration de la maquette et les requêtes API pour récupérer, ajouter, modifier et supprimer des recettes.

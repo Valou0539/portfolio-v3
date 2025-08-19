@@ -1,3 +1,1 @@
-Ceci est la description de HoardGames. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Hoardgames est un site de jeux d'argent sur des jeux de société rentrés dans le domaine public. Il contient des pages de présentation du concept, d'information comme les règles du jeu ou un centre d'aide. Il contient également toutes les pages de compte utilisateur, dont l'inscription, la connexion, le profil, les documents justificatifs d'age et d'adresse... L'admin-panel permet quant à lui de gérer les utilisateurs, valider leurs documents, ajouter des rôles et modifier leurs permissions.

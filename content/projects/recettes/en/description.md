@@ -1,3 +1,1 @@
-This is the description of Recettes. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+This project is a recipe storage website. I and a friend created it for his grandmother who liked cooking and sharing her recipes. It is a personal project that allowed me to improve my skills on Nuxt.js and web development in general. I also continued to progress in design and UX/UI to improve the user experience.

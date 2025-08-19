@@ -1,3 +1,1 @@
-Ceci est la description de Recettes. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Ce projet est un site web de stockage de recettes de cuisine. Moi et un ami l'avons créer pour sa grand-mère qui aimait cuisiner et partager ses recettes. C'est un projet personnel qui m'a permis de monter en compétence sur Nuxt.js et sur le développement web en général. J'ai également continuer de progresser en design et en UX/UI pour améliorer l'expérience utilisateur.

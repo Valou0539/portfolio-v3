@@ -14,6 +14,14 @@
       "srcMobile": "/images/projects/cybercave/card-mobile-large.png"
     }
   },
-  "figma": "https://www.figma.com/design/JSpIlI0li4IIhiKvkt17YB/Cyber-Cave?m=auto&t=me4Voq8Sfb1mzlpl-6",
-  "techStack": ["nuxt", "vuejs", "tailwindcss", "javascript", "prisma", "figma"]
+  "figma": "https://www.figma.com/design/JSpIlI0li4IIhiKvkt17YB/Cyber-Cave",
+  "techStack": [
+    "nuxt",
+    "vuejs",
+    "tailwindcss",
+    "javascript",
+    "prisma",
+    "sqlite",
+    "figma"
+  ]
 }

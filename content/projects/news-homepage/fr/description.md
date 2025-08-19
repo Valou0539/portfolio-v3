@@ -1,3 +1,1 @@
-Ceci est la description de News Homepage. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Cette landing page est un challenge provenant de [Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Des amis et moi l'avons chacun réalisé sur forme de petite compétition de rapidité pendant notre temps libre en BUT.

@@ -1,3 +1,5 @@
-- Fonctionnalité principale 1
-- Fonctionnalité principale 2
-- Fonctionnalité principale 3
+😎 Intégration pixel perfect d'une image maquette
+
+📱 Responsive design
+
+⚡ Réalisé en moins de 30 minutes

@@ -1,5 +1,1 @@
-As the developer of this project, I was responsible for:
-
-- Design and development
-- Technical architecture
-- Implementation of key features
+In this project, while other freelancers were responsible for developing the game itself, my colleague and I developed the rest of the application. I personally handled the design of the site mock-up and carried out almost all of the front-end development.

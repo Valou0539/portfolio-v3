@@ -1,3 +1,7 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+😋 Add and modify recipes
+
+📊 Dashboard with recipes by category
+
+🔍 Search bar
+
+🎨 Styled login interface

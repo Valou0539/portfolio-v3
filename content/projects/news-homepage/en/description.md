@@ -1,3 +1,1 @@
-This is the description of News Homepage. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+This landing page is a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). My friends and I each realized it in a competition of speed during our free time in BUT.

@@ -1,3 +1,5 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+🧑‍💻 Conducting an ergonomic study
+
+🎨 Creating a graphic charter (fonts, colors, logo)
+
+🖼️ Designing a mock-up

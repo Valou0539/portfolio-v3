@@ -1,5 +1,1 @@
-En tant que développeur de ce projet, j'étais responsable de :
-
-- Conception et développement
-- Architecture technique
-- Implémentation des fonctionnalités clés
+Dans ce projet, pendant que d'autres freelances ce sont chargé de développer le jeu. Moi et mon collègue avons développé le reste de l'application. Je me suis personnelement chargé de la réalisition de la maquette du site puis j'ai fait la quasi-totalité du développement front-end.

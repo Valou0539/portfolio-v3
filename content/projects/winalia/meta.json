@@ -17,6 +17,7 @@
     "tailwindcss",
     "typescript",
     "laravel",
-    "php"
+    "php",
+    "postgresql"
   ]
 }

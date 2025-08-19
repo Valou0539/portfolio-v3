@@ -1,7 +1,11 @@
-✏️ Lorem ipsum dolor sit amet
+📧 Connexion et inscription via email avec photo de profil
 
-🧠 Lorem ipsum dolor sit amet
+🎬 Informations sur les contenus par [TMDB](https://www.themoviedb.org/)
 
-🔒 Lorem ipsum dolor sit amet
+🎥 Ajout du multi-sources dans le lecteur
 
-📊 Lorem ipsum dolor sit amet
+💎 Ajout des fonctionnalités premium (téléchargement, IPTV, etc.)
+
+📱 Mise en place d'un nombre maximum d'appareils par abonnement
+
+🛠️ Corrections de nombreux bugs

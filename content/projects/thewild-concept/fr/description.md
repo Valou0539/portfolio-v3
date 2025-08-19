@@ -1,0 +1,1 @@
+Ce projet est un concept d'interface de connexion fait sur mon temps libre. Le but était de mettre la connexion et l'inscription sur la même page et qu'une animation permette de passer d'une interface à l'autre.

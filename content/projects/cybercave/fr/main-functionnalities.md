@@ -1,7 +1,7 @@
-✏️ Lorem ipsum dolor sit amet
+🎨 Une landing page esthétique et responsive
 
-🧠 Lorem ipsum dolor sit amet
+🛍️ Une page de produits avec la possibilité de les réserver
 
-🔒 Lorem ipsum dolor sit amet
+💬 Un forum avec la possibilité de créer des topics et de réagir
 
-📊 Lorem ipsum dolor sit amet
+⚙️ Un admin-panel pour gérer les utilisateurs, les réservations et les produits

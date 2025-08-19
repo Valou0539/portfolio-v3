@@ -1,3 +1,5 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+😎 Pixel perfect integration of a mockup image
+
+📱 Responsive design
+
+⚡ Completed in less than 30 minutes

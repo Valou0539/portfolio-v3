@@ -15,5 +15,5 @@
     }
   },
   "website": "https://purstream.to",
-  "techStack": ["react", "tailwindcss", "typescript", "laravel", "php"]
+  "techStack": ["react", "tailwindcss", "typescript", "laravel", "php", "mysql"]
 }

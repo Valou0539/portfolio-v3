@@ -14,13 +14,14 @@
       "srcMobile": "/images/projects/hoardgames/card-mobile-large.png"
     }
   },
-  "figma": "https://www.figma.com/design/6KRfe5infT1Am66mTsJmvf/HoardGames?node-id=1-1219&t=9uS2mzoKq3vEbFoQ-1",
+  "figma": "https://www.figma.com/design/6KRfe5infT1Am66mTsJmvf/HoardGames",
   "techStack": [
     "nuxt",
     "vuejs",
     "tailwindcss",
     "typescript",
     "adonisjs",
-    "postgresql"
+    "postgresql",
+    "figma"
   ]
 }

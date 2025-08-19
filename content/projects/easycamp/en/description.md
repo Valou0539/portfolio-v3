@@ -1,3 +1,1 @@
-This is the description of EasyCamp. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+This project is a mock-up accompanied by an ergonomic study carried out as part of my Bachelor of Technology degree. It had to be completed in 4 hours based on a requirements description. The idea was to design a web application that would allow the management of motorhome parking spots. We had to describe the features, define the profile of the users who would use the application, then create the graphic charter (logo, fonts, colors), and finally build the mock-up (wireframes followed by the visual design).

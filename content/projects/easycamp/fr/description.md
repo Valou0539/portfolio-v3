@@ -1,3 +1,1 @@
-Ceci est la description de EasyCamp. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Ce projet est une maquette accompagnée d'une étude ergonomique réalisée dans le cadre de mes études en BUT. Il fallait le faire en 4 heures à partir d'une description de besoins. L'idée était d'avoir une application web qui permettrait de gérer des emplacements pour camping-car. Il a fallu décrire les fonctionnalités, le profil des utilisateurs qui utiliseraient l'application puis faire la charte graphique (logo, polices, couleurs) et pour finir la maquette (fils de fer puis esthétique).

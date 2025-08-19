@@ -1,3 +1,9 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+🎨 A landing page and informational pages
+
+👤 User account management
+
+📄 Management of proof documents
+
+🌍 Multilingual support
+
+⚙️ A complete admin panel

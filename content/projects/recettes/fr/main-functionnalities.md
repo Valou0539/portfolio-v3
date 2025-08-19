@@ -1,3 +1,7 @@
-- Fonctionnalité principale 1
-- Fonctionnalité principale 2
-- Fonctionnalité principale 3
+😋 Ajout et modification de recettes
+
+📊 Dashboard avec les recettes par catégorie
+
+🔍 Barre de recherche
+
+🎨 Interface de connexion designée

@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/thewild-concept/carousel/login.png",
+      "alt": {
+        "en": "Login interface of TheWild Concept",
+        "fr": "Interface de connexion de TheWild Concept"
+      }
+    },
+    {
+      "src": "/images/projects/thewild-concept/carousel/register.png",
+      "alt": {
+        "en": "Register interface of TheWild Concept",
+        "fr": "Interface d'inscription de TheWild Concept"
+      }
+    }
+  ]
+}
