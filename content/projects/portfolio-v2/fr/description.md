@@ -1,3 +1,1 @@
-Ceci est la description de Portfolio V2. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Deuxième version de mon portfolio. Évolution majeure en termes de design et ajout d'un formulaire de contact fonctionnel. Je l'avais développé en début de première année de BUT afin d'appuyer mon CV dans ma recherche d'alternance mais aussi pour trouver de nouveaux clients potentiels en freelance.

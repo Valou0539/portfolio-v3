@@ -1,3 +1,1 @@
-Ceci est la description de Code With Me. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Code With Me est un site web développé dans le cadre d'une SAÉ (Situation d'Apprentissage et d'Évaluation) pendant mon BUT. Ce projet consistait à créer un site web à partir d'une fausse demande client formulée par un professeur. L'objectif était de développer une maquette puis le site complet en respectant les normes d'accessibilité vues en cours. Le site présente une plateforme collaborative pour développeurs, avec une interface moderne et accessible. Ce projet m'a permis d'approfondir mes compétences en développement web front-end tout en appliquant concrètement les principes d'accessibilité et les bonnes pratiques du développement web.

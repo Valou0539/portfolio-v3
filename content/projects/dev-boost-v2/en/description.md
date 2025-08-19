@@ -1,3 +1,1 @@
-This is the description of Dev Boost v2. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+Dev Boost v2 is the second version of my sole proprietorship’s website, which I shared with a friend during the first year. This professional showcase was specifically designed to support our application to our first client, presenting our services, portfolio, and expertise in web development. The site provides a comprehensive presentation of our service offerings, a project portfolio, and client contact features. Although it was initially created to attract potential clients through our online presence, we later shifted our business strategy toward responding to calls for tenders rather than waiting for incoming requests. While the site remains online and functional, it now mainly serves as a historical showcase of our first freelance work.

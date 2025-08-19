@@ -1,3 +1,7 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+🏠 Landing page with personal presentation
+
+👤 Detailed About page
+
+🎨 Project gallery
+
+📧 Functional contact form

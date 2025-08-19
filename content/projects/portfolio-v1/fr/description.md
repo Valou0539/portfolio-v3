@@ -1,3 +1,1 @@
-Ceci est la description de Portfolio V1. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+Première version de mon portfolio personnel. Je l'avais développé avant d'avoir l'age de créer mon auto-entreprise afin de trouver des clients potentiels.

@@ -6,6 +6,7 @@ auto_execution_mode: 1
 You have to fill description.md, main-functionnalities.md and my-role.md for the project I tell you to.
 
 Here some indication :
+
 - All the project are in content/projects.
 - Use the github mcp to get more info, files and commits
 - Read the meta.json and carousel.json to have more info
@@ -14,6 +15,7 @@ Here some indication :
 - you can take as example the project winalia
 
 Here some rules :
+
 - description.md and my-role.md must be paragraph (no list)
 - main-functionnalities.md must be bullet points made with emoji
 - no need to precise technologies their already are in the page

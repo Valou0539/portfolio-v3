@@ -1,3 +1,1 @@
-This is the description of Portfolio V2. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+Second version of my portfolio developed. Major evolution of the design and addition of a functional contact form. I had developed it at the beginning of my first year of BUT in order to support my CV in my job search but also to find new potential clients for freelance work.
