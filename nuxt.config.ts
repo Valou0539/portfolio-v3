@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
     "@nuxt/content",
+    "@nuxtjs/sitemap",
   ],
 
   colorMode: {
@@ -62,6 +63,10 @@ export default defineNuxtConfig({
         name: "Français",
       },
     ],
+  },
+
+  sitemap: {
+    sources: ["/api/__sitemap__/urls"],
   },
 
   css: ["~/assets/css/main.css"],
