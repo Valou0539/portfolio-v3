@@ -75,4 +75,27 @@ export default defineNuxtConfig({
     emailHost: process.env.MAIL_HOST,
     emailPort: process.env.MAIL_PORT,
   },
+
+  app: {
+    head: {
+      meta: [
+        {
+          property: "og:image",
+          content: "/images/og-image.png",
+        },
+        {
+          property: "og:type",
+          content: "website",
+        },
+        {
+          property: "og:site_name",
+          content: "Valentin Gindre",
+        },
+        {
+          property: "twitter:image",
+          content: "/images/og-image.png",
+        },
+      ],
+    },
+  },
 });

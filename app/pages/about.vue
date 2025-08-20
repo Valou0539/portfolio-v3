@@ -12,5 +12,9 @@ const { t } = useI18n();
 useSeoMeta({
   title: t("about.seo.title"),
   description: t("about.seo.description"),
+  ogTitle: t("about.seo.title"),
+  ogDescription: t("about.seo.description"),
+  twitterTitle: t("about.seo.title"),
+  twitterDescription: t("about.seo.description"),
 });
 </script>

@@ -71,5 +71,9 @@ if (!projectMeta.value || !project.value?.description) {
 useSeoMeta({
   title: projectMeta.value?.name,
   description: project.value?.description.seo.description,
+  ogTitle: projectMeta.value?.name,
+  ogDescription: project.value?.description.seo.description,
+  twitterTitle: projectMeta.value?.name,
+  twitterDescription: project.value?.description.seo.description,
 });
 </script>
