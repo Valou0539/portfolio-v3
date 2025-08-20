@@ -1,5 +1,4 @@
 import tailwindcss from "@tailwindcss/vite";
-import { useRuntimeConfig } from "nuxt/app";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -75,19 +74,11 @@ export default defineNuxtConfig({
     emailPassword: process.env.MAIL_PASSWORD,
     emailHost: process.env.MAIL_HOST,
     emailPort: process.env.MAIL_PORT,
-
-    public: {
-      siteUrl: "https://www.valentin-gindre.fr",
-    },
   },
 
   app: {
     head: {
       meta: [
-        {
-          property: "og:image",
-          content: `${useRuntimeConfig().public.siteUrl}/images/og-image.png`,
-        },
         {
           property: "og:type",
           content: "website",
@@ -95,10 +86,6 @@ export default defineNuxtConfig({
         {
           property: "og:site_name",
           content: "Valentin Gindre",
-        },
-        {
-          property: "twitter:image",
-          content: `${useRuntimeConfig().public.siteUrl}/images/og-image.png`,
         },
       ],
     },

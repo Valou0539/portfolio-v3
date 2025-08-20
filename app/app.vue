@@ -17,6 +17,8 @@ const setSeoMeta = () => {
   useSeoMeta({
     ogLocale: `${locale.value}_${locale.value.toUpperCase()}`,
     ogUrl: url.href,
+    ogImage: url.origin + "/images/og-image.png",
+    twitterImage: url.origin + "/images/og-image.png",
   });
 };
 

@@ -63,6 +63,4 @@ const { style } = useAnimationOnLoad();
 useHead({
   titleTemplate: `${t("error.title")} - Valentin Gindre`,
 });
-
-const { locale } = useI18n();
 </script>
