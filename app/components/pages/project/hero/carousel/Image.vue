@@ -6,7 +6,6 @@
       :src="props.image.src"
       class="size-full object-cover sm:rounded-lg md:rounded-xl lg:rounded-2xl"
       :fetchpriority="props.fetchPriorityHigh ? 'high' : undefined"
-      :loading="props.lazy ? 'lazy' : 'eager'"
       :alt="props.image.alt[$i18n.locale]"
       width="1152"
       height="648"
@@ -18,7 +17,6 @@ import type { ProjectsCarouselCollectionItem } from "@nuxt/content";
 interface Props {
   image: ProjectsCarouselCollectionItem["images"][number];
   fetchPriorityHigh?: boolean;
-  lazy?: boolean;
 }
 
 const props = defineProps<Props>();
