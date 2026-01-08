@@ -1,0 +1,28 @@
+{
+  "name": "my-habits",
+  "date": "2025-10",
+  "large": false,
+  "featured": false,
+  "cardTheme": "light",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/my-habits/card.png",
+      "srcMobile": "/images/projects/my-habits/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/my-habits/card-large.png",
+      "srcMobile": "/images/projects/my-habits/card-mobile-large.png"
+    }
+  },
+  "website": "https://my-habits.dev-boost-studio.com/",
+  "techStack": [
+    "nuxt",
+    "vuejs",
+    "primevue",
+    "tailwindcss",
+    "typescript",
+    "laravel",
+    "php",
+    "postgresql"
+  ]
+}

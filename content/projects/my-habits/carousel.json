@@ -1,0 +1,11 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/my-habits/carousel/screenshot-1.png",
+      "alt": {
+        "en": "Main interface of my-habits",
+        "fr": "Interface principale de my-habits"
+      }
+    }
+  ]
+}
