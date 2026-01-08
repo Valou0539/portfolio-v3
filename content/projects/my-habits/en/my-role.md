@@ -1,0 +1,1 @@
+As a front-end developer for myHabits, I was responsible for designing and developing the user interface. The application is built to fetch habits once on load, so I implemented all of the calculations entirely on the front end.

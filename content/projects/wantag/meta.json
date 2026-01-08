@@ -2,7 +2,7 @@
   "name": "Wantag",
   "date": "2024-08",
   "large": true,
-  "featured": true,
+  "featured": false,
   "cardTheme": "light",
   "cardImages": {
     "default": {

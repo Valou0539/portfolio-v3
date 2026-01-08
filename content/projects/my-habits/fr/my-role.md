@@ -1,0 +1,1 @@
+En tant que développeur front-end de myHabits, j'étais responsable de la conception et du développement de l'interface utilisateur. L'application est créée de sorte à récupérer une fois les habitudes au chargement, j'ai donc réalisé l'entièreté des calculs côté front-end.
