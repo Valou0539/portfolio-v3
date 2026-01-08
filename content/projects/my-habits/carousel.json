@@ -1,10 +1,31 @@
 {
   "images": [
     {
-      "src": "/images/projects/my-habits/carousel/screenshot-1.png",
+      "src": "/images/projects/my-habits/carousel/home.png",
       "alt": {
-        "en": "Main interface of my-habits",
-        "fr": "Interface principale de my-habits"
+        "en": "Home page of myHabits",
+        "fr": "Page d'accueil de myHabits"
+      }
+    },
+    {
+      "src": "/images/projects/my-habits/carousel/create.png",
+      "alt": {
+        "en": "Create page of myHabits",
+        "fr": "Page de création de myHabits"
+      }
+    },
+    {
+      "src": "/images/projects/my-habits/carousel/history.png",
+      "alt": {
+        "en": "History page of myHabits",
+        "fr": "Page d'historique de myHabits"
+      }
+    },
+    {
+      "src": "/images/projects/my-habits/carousel/history-dark.png",
+      "alt": {
+        "en": "History page of myHabits",
+        "fr": "Page d'historique de myHabits"
       }
     }
   ]

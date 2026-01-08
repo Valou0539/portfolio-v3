@@ -1,8 +1,8 @@
 {
-  "name": "my-habits",
+  "name": "myHabits",
   "date": "2025-10",
   "large": false,
-  "featured": false,
+  "featured": true,
   "cardTheme": "light",
   "cardImages": {
     "default": {

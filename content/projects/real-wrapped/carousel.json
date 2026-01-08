@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "src": "/images/projects/real-wrapped/carousel/home.png",
+      "alt": {
+        "en": "Home page of myHabits",
+        "fr": "Page d'accueil de myHabits"
+      }
+    },
+    {
+      "src": "/images/projects/real-wrapped/carousel/home-light.png",
+      "alt": {
+        "en": "Home page in light mode",
+        "fr": "Page d'accueil en mode clair"
+      }
+    },
+    {
+      "src": "/images/projects/real-wrapped/carousel/upload.png",
+      "alt": {
+        "en": "Upload page",
+        "fr": "Page de téléchargement"
+      }
+    },
+    {
+      "src": "/images/projects/real-wrapped/carousel/processing.png",
+      "alt": {
+        "en": "Processing page",
+        "fr": "Page de traitement"
+      }
+    }
+  ]
+}

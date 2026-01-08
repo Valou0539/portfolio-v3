@@ -1,3 +1,1 @@
-This is the description of my-habits. Please update this content with the actual project description.
-
-Add details about what the project does, its purpose, and key features.
+myHabits is a modern habit-tracking web application designed to help users create, monitor, and analyze their daily routines. It allows users to define custom habits with flexible frequencies, measurable goals, and clear progress visualization through statistics, a calendar, and a 30-day progress chart. With a clean interface, color coding per habit, and advanced analysis tools (completion rates, trends, archives), myHabits makes it easier to understand and sustainably improve habits.

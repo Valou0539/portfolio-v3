@@ -1,3 +1,13 @@
-- Fonctionnalité principale 1
-- Fonctionnalité principale 2
-- Fonctionnalité principale 3
+✨ Création d'habitudes
+
+📊 Tableau de bord de progression
+
+📈 Statistiques complètes
+
+📉 Graphique d'évolution 30 jours
+
+📅 Historique & vue calendrier
+
+🔍 Outils d'analyse
+
+📦 Visualisation des archives

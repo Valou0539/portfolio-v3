@@ -1,0 +1,21 @@
+{
+  "name": "Real Wrapped",
+  "date": "2025-12",
+  "large": false,
+  "featured": true,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/real-wrapped/card.png",
+      "srcMobile": "/images/projects/real-wrapped/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/real-wrapped/card-large.png",
+      "srcMobile": "/images/projects/real-wrapped/card-mobile-large.png"
+    }
+  },
+  "website": "https://real-wrapped.prod.dev-boost-studio.com/",
+  "figma": "",
+  "github": "https://github.com/Valou0539/real-wrapped",
+  "techStack": ["nuxt", "vuejs", "primevue", "tailwindcss"]
+}

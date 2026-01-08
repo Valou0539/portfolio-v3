@@ -1,3 +1,13 @@
-- Main functionality 1
-- Main functionality 2
-- Main functionality 3
+✨ Habit creation
+
+📊 Progress dashboard
+
+📈 Comprehensive statistics
+
+📉 30-day progress chart
+
+📅 History & calendar view
+
+🔍 Analysis tools
+
+📦 Archive visualization

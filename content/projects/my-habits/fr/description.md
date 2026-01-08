@@ -1,3 +1,1 @@
-Ceci est la description de my-habits. Veuillez mettre à jour ce contenu avec la description réelle du projet.
-
-Ajoutez des détails sur ce que fait le projet, son objectif et ses fonctionnalités clés.
+myHabits est une application web moderne de suivi d’habitudes qui aide les utilisateurs à créer, suivre et analyser leurs routines quotidiennes. Elle permet de définir des habitudes personnalisées avec des fréquences flexibles, des objectifs mesurables et une visualisation claire de la progression via des statistiques, un calendrier et un graphique d’évolution sur 30 jours. Grâce à une interface épurée, un code couleur par habitude et des outils d’analyse avancés (taux de complétion, tendances, archives), myHabits facilite la compréhension et l’amélioration durable des comportements.
