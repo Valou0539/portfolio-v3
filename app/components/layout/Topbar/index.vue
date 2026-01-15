@@ -31,6 +31,7 @@
             <AssetsFlag :lang="$i18n.locale" class="size-5 opacity-90" />
           </button>
           <LayoutTopbarThemeButton class="hidden md:block" />
+          <LayoutTopbarAvailabilityStatus />
           <button
             @click="openMenu('mobile')"
             class="block cursor-pointer p-1 md:hidden"

@@ -11,7 +11,11 @@
       "selected-language": "Langue sélectionnée : {selectedLanguage}. Cliquer pour changer.",
       "cancel": "Annuler",
       "open-menu": "Ouvrir le menu",
-      "close-menu": "Fermer le menu"
+      "close-menu": "Fermer le menu",
+      "availability": {
+        "available": "Disponible",
+        "available-from": "Disponible à partir de {date}"
+      }
     },
     "theme": {
       "switch-from-light": "Passer en mode sombre",
