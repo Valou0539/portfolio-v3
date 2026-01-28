@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mr-2 size-full flex-grow transition-opacity duration-500 ease-in-out"
+    class="mr-2 size-full grow transition-opacity duration-500 ease-in-out"
   >
     <NuxtImg
       :src="props.image.src"

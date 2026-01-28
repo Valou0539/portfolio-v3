@@ -4,7 +4,7 @@
     :blur-amount="2"
     position="absolute"
     :class="[
-      'top-1/2 -translate-y-1/2 !bg-black/40',
+      'top-1/2 -translate-y-1/2 bg-black/40!',
       props.type === 'prev' ? 'left-4 sm:left-8' : 'right-4 sm:right-8',
     ]"
   >

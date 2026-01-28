@@ -14,7 +14,7 @@ import { ChatBubbleLeftIcon } from "@heroicons/vue/24/outline";
         {{ $t("home.cta.description") }}
       </p>
     </div>
-    <div class="flex flex-shrink-0 items-center gap-4">
+    <div class="flex shrink-0 items-center gap-4">
       <CommonButton to="/contact">
         <ChatBubbleLeftIcon class="hidden size-4 sm:block md:size-5" />
         {{ $t("home.cta.contact") }}

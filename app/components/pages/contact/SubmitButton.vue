@@ -2,8 +2,8 @@
   <CommonButton
     :class="[
       {
-        '!bg-green-700 dark:!bg-green-500': recentlySentStatus === 'success',
-        '!bg-red-700 dark:!bg-red-500': recentlySentStatus === 'error',
+        'bg-green-700! dark:bg-green-500!': recentlySentStatus === 'success',
+        'bg-red-700! dark:bg-red-500!': recentlySentStatus === 'error',
       },
       'mt-6 overflow-hidden transition-colors duration-300 sm:col-span-2 md:mt-8',
     ]"

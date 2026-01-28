@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex aspect-video justify-center sm:mx-4">
-    <div class="slider-mask flex w-[300%] flex-shrink-0 justify-center">
-      <div class="relative aspect-video w-[calc(1/3*100%)]">
+    <div class="slider-mask flex w-[300%] shrink-0 justify-center">
+      <div class="relative aspect-video w-1/3">
         <div
           :class="[
             'flex',
@@ -38,7 +38,7 @@
             :fetch-priority-high="i === 0"
             :class="{
               'opacity-50': index !== i,
-              '!duration-0': disabledTransition,
+              'duration-0!': disabledTransition,
             }"
           />
           <PagesProjectHeroCarouselImage
@@ -69,9 +69,9 @@
       position="absolute"
       :class="[
         {
-          'scale-0 opacity-0 !duration-0': disabledNav,
+          'duration-0! scale-0 opacity-0': disabledNav,
         },
-        'bottom-2 right-2 !bg-black/60',
+        'bg-black/60! bottom-2 right-2',
       ]"
     >
       <span

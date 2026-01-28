@@ -16,9 +16,9 @@
       <PagesAboutExperiencesPeriod
         :start-date="experience.startDate"
         :end-date="experience.endDate"
-        class="w-29 mt-2 hidden flex-shrink-0 text-right md:block"
+        class="w-29 mt-2 hidden shrink-0 text-right md:block"
       />
-      <div :class="['relative w-3.5 flex-shrink-0', { 'pt-1.5': index === 0 }]">
+      <div :class="['relative w-3.5 shrink-0', { 'pt-1.5': index === 0 }]">
         <div
           :class="[
             'bg-primary/50 mx-auto h-full w-1',

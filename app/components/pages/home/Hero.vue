@@ -17,7 +17,7 @@
     />
     <assets-glass-sparkles
       :style="style(1000, { transform: 'scale(0)' })"
-      class="absolute -left-5 top-[clamp(3.3125rem,12vw,10rem)] size-[clamp(40px,12vw,112px)] rotate-[60deg] sm:left-[clamp(-20px,calc(48px-2vw),32px)]"
+      class="rotate-60 absolute -left-5 top-[clamp(3.3125rem,12vw,10rem)] size-[clamp(40px,12vw,112px)] sm:left-[clamp(-20px,calc(48px-2vw),32px)]"
     />
   </section>
 </template>

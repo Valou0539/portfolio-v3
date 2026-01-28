@@ -2,14 +2,14 @@
   <footer class="mx-auto max-w-4xl pb-4 pt-28 md:pt-56">
     <div class="mb-12 flex justify-between gap-8 sm:px-8">
       <LayoutFooterTechStack />
-      <div class="flex w-full flex-shrink-0 flex-grow pl-8 sm:max-w-80 sm:pl-0">
+      <div class="flex w-full shrink-0 grow pl-8 sm:max-w-80 sm:pl-0">
         <LayoutFooterMenu
-          class="w-1/2 flex-shrink-0 flex-grow"
+          class="w-1/2 shrink-0 grow"
           i18n-key-title="layout.footer.my-links"
           :items="myLinks"
         />
         <LayoutFooterMenu
-          class="w-1/2 flex-shrink-0 flex-grow"
+          class="w-1/2 shrink-0 grow"
           i18n-key-title="layout.footer.navigation"
           :items="navigation.map((item) => ({ ...item, localeLink: true }))"
         />

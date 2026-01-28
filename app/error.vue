@@ -8,7 +8,7 @@
         <div class="relative">
           <div
             :style="style(100)"
-            class="heading-2 !text-gray-700 dark:!text-gray-300"
+            class="heading-2 text-gray-700! dark:text-gray-300!"
           >
             {{ error.statusCode || "404" }}
           </div>

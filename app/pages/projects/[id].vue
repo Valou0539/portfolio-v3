@@ -29,7 +29,7 @@
           class="lg:hidden"
         />
       </div>
-      <div class="w-91 hidden flex-shrink-0 space-y-12 lg:block">
+      <div class="w-91 hidden shrink-0 space-y-12 lg:block">
         <PagesProjectLinks :project-meta="projectMeta" />
         <PagesProjectTechnologies
           :project-meta="projectMeta"
@@ -58,7 +58,11 @@ const [{ data: projectMeta }, { data: projectCarousel }, { data: project }] =
     projectPromise,
   ]);
 
-if (!projectMeta.value || !project.value?.description) {
+if (
+  !projectMeta.value ||
+  !project.value?.description ||
+  projectId === "purstream"
+) {
   throw createError({
     statusCode: 404,
     statusMessage: "error.project-not-found",

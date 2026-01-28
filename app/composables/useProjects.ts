@@ -5,6 +5,7 @@ export function useProjects(featuredOnly?: boolean) {
     `projects-${featuredOnly ? "featured" : "all"}`,
     () => {
       const query = queryCollection("projects_meta").order("date", "DESC");
+      query.where("name", "<>", "Purstream");
       if (featuredOnly) {
         query.where("featured", "=", true).limit(3);
       }
