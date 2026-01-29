@@ -58,11 +58,7 @@ const [{ data: projectMeta }, { data: projectCarousel }, { data: project }] =
     projectPromise,
   ]);
 
-if (
-  !projectMeta.value ||
-  !project.value?.description ||
-  projectId === "purstream"
-) {
+if (!projectMeta.value || !project.value?.description) {
   throw createError({
     statusCode: 404,
     statusMessage: "error.project-not-found",

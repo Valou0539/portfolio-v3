@@ -1,0 +1,18 @@
+{
+  "name": "Streaming Template",
+  "date": "2025-06",
+  "large": true,
+  "featured": true,
+  "cardTheme": "dark",
+  "cardImages": {
+    "default": {
+      "src": "/images/projects/streaming-template/card.png",
+      "srcMobile": "/images/projects/streaming-template/card-mobile.png"
+    },
+    "large": {
+      "src": "/images/projects/streaming-template/card-large.png",
+      "srcMobile": "/images/projects/streaming-template/card-mobile-large.png"
+    }
+  },
+  "techStack": ["react", "tailwindcss", "typescript", "laravel", "php", "mysql"]
+}
