@@ -18,7 +18,6 @@ export function createTooltipElement(id: string, text: string): HTMLDivElement {
 
 export function setupAccessibility(el: HTMLElement, tooltipText: string): void {
   el.setAttribute("tabindex", "0");
-  el.setAttribute("aria-label", tooltipText);
 }
 
 export function calculateTooltipPosition(

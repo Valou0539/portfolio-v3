@@ -28,7 +28,6 @@ export default defineNuxtPlugin((nuxtApp) => {
       if (!data?.tooltip) return;
 
       data.tooltip.textContent = binding.value;
-      el.setAttribute("aria-label", binding.value);
 
       if (data.tooltip.style.display === "block") {
         data.positionTooltip();
